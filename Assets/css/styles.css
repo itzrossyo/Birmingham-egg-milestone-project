@@ -142,7 +142,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-} /*-------------------------------------------------Main section End-----*/
+}
+.footer {
+  background-color: #f09819;
+  width: 100%;
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+/*-------------------------------------------------Main section End-----*/
 
 /*-------------------------------------------------style text section Start-----*/
 .products-we-have {
@@ -165,6 +173,8 @@ header {
 #specialize {
   text-align: center;
   margin-top: 50px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .Poltry_Pitch {
@@ -215,6 +225,13 @@ img {
 .open_hrs ul {
   width: 50%;
   margin: 0 auto;
+}
+
+.delivers h2 {
+  text-align: center;
+}
+.delivers p {
+  text-align: center;
 }
 /*-------------------------------------------------style text section end-----*/
 
