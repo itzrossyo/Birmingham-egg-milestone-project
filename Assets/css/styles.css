@@ -96,8 +96,8 @@ header {
   display: flex;
   justify-content: center;
 }
-/*-------------------------------------------------Responsive-----*/
-@media screen and (max-width: 600px) {
+/*-------------------------------------------------Responsive Menu for phone-----*/
+@media only screen and (max-width: 667px) {
   .navbar .link,
   .navbar .action_btn {
     display: none;
@@ -120,16 +120,12 @@ header {
 /*-------------------------------------------------Main section Start-----*/
 .main-section h2 {
   font-size: 1.3rem;
-  padding-left: 4px;
-  padding-right: 4px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
-  margin: 5% auto;
-  display: flex;
-  align-items: center;
-
-  justify-content: center;
+  margin: 10px auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .welcome-to-birmingham h3 {
   font-size: 0.9rem;
@@ -210,12 +206,14 @@ img {
   margin: 15px auto;
   text-align: center;
   display: block;
+  width: 70%;
+  border: 1px solid black;
 }
 
 .open_hrs {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: 20% auto 0;
   background-color: #f09819;
 }
 .open_hrs img {
@@ -229,9 +227,14 @@ img {
 
 .delivers h2 {
   text-align: center;
+  margin-top: 20%;
 }
 .delivers p {
   text-align: center;
+}
+
+.footer {
+  margin-top: 20px;
 }
 /*-------------------------------------------------style text section end-----*/
 
