@@ -25,6 +25,7 @@ a:hover {
 header {
   position: relative;
   padding: 0 2rem;
+  background-color: orange;
 }
 .navbar {
   width: 100%;
@@ -95,7 +96,7 @@ header {
   display: flex;
   justify-content: center;
 }
-/*-------------------------------------------------responsive-----*/
+/*-------------------------------------------------Responsive-----*/
 @media screen and (max-width: 600px) {
   .navbar .link,
   .navbar .action_btn {
@@ -107,4 +108,83 @@ header {
   .dropdown-menu {
     display: block;
   }
+  .main-section {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+  }
 }
+/*-------------------------------------------------Responsive End-----*/
+
+/*-------------------------------------------------Main section Start-----*/
+.main-section h2 {
+  font-size: 1.3rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 5% auto;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.welcome-to-birmingham h3 {
+  font-size: 0.9rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 5% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} /*-------------------------------------------------Main section End-----*/
+
+/*-------------------------------------------------style text section Start-----*/
+.products-we-have {
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.products-we-have p {
+  text-align: center;
+}
+.items-we-have {
+  margin-top: 50px;
+}
+.items-we-have li {
+  text-align: center;
+  margin: 10px auto;
+}
+#specialize {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Poltry_Pitch {
+  font-size: 0.6rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.Poltry_Pitch h3 {
+  font-size: 0.6rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 5% auto;
+}
+
+/*-------------------------------------------------style text section end-----*/
