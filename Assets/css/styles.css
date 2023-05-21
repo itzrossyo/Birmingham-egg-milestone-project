@@ -177,14 +177,81 @@ header {
   margin: 0 auto;
 }
 
-.Poltry_Pitch h3 {
+.Pitch h3 {
   font-size: 0.6rem;
-  padding-left: 4px;
-  padding-right: 4px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
-  margin: 5% auto;
+  margin-top: 10%;
+}
+.Pitch p {
+  text-align: center;
+}
+.Pitch li {
+  text-align: left;
 }
 
+.hvr-float {
+  display: block;
+  cursor: pointer;
+}
+
+img {
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+}
+
+.open_hrs {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #f09819;
+}
+.open_hrs img {
+  width: 40%;
+  margin: 5px auto;
+}
+.open_hrs ul {
+  width: 50%;
+  margin: 0 auto;
+}
 /*-------------------------------------------------style text section end-----*/
+
+/*-------------------------------------------------Btn section Start-----*/
+.Contact-btn {
+  margin: 15px auto;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Contact-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Contact-btn:active {
+  transform: scale(0.95);
+}
+/*-------------------------------------------------Btn section End-----*/
