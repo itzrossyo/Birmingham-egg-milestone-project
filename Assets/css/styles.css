@@ -3,8 +3,108 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background-color: rgb(155, 155, 155);
 }
 
-a:link {
+/*-------------------------------------------------start of links for navbar-----*/
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+a:hover {
+  color: orange;
+}
+
+/*-------------------------------------------------End of links for navbar-----*/
+/*-------------------------------------------------Start of navbar and header-----*/
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bavbar .logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .link {
+  display: flex;
+  gap: 2rem;
+}
+.navbar .toggle_btn {
   color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.action_btn {
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*-------------------------------------------------End of navbar and header-----*/
+
+/*------------------------------------------------Dropdown Menu------------------------------------------------*/
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transform: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu.open {
+  height: 240px;
+}
+
+.dropdown-menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu .action_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/*-------------------------------------------------responsive-----*/
+@media screen and (max-width: 600px) {
+  .navbar .link,
+  .navbar .action_btn {
+    display: none;
+  }
+  .navbar .toggle_btn {
+    display: block;
+  }
+  .dropdown-menu {
+    display: block;
+  }
 }
