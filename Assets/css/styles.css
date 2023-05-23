@@ -318,14 +318,26 @@ header {
 
 /*------------------------------------------------start of product page---*/
 .product-nav ul {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .productimages {
     margin-top: 25px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
+}
+
+#chicken-images {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.grid {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
 }
