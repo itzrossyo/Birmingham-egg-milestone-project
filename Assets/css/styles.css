@@ -17,7 +17,7 @@ a {
     font-size: 1rem;
 }
 a:hover {
-    color: rgb(112, 111, 108);
+    color: rgb(110, 86, 15);
 }
 
 /*-------------------------------------------------End of links for navbar-----*/
@@ -65,19 +65,11 @@ header {
     cursor: pointer;
 }
 
-.product-icons {
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: right;
-    gap: 10px;
-}
-
 .open_hrs {
     display: flex;
     text-align: center;
     margin: 0 auto;
-    background-color: #f09819;
+    margin-top: 50px;
 }
 /*-------------------------------------------------End of navbar and header-----*/
 
@@ -94,6 +86,10 @@ header {
     border-radius: 10px;
     overflow: hidden;
     transform: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#geotag {
+    margin-left: 10px;
 }
 
 .dropdown-menu.open {
@@ -155,12 +151,17 @@ header {
 .products-we-have p {
     text-align: center;
 }
+
+.product-list {
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
 .items-we-have {
     margin-top: 50px;
 }
 .items-we-have li {
     text-align: center;
-    margin: 10px auto;
 }
 #specialize {
     text-align: center;
@@ -173,11 +174,12 @@ header {
     display: flex;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 .pitch-img {
     width: 50%;
     height: 25%;
-    margin: 25px 20px 20px 20px;
+    margin: 50px 30px 50px 50px;
 }
 .pitch p {
     text-align: center;
@@ -185,6 +187,7 @@ header {
 }
 .pitch li {
     text-align: left;
+    padding: 5px;
 }
 .hvr-float {
     display: block;
@@ -208,7 +211,7 @@ header {
 }
 
 .footer {
-    margin-top: 20px;
+    margin-top: o;
 }
 /*-------------------------------------------------style text section end-----*/
 
@@ -298,6 +301,9 @@ header {
         flex-direction: column-reverse;
         justify-content: center;
         justify-items: center;
+    }
+    .map {
+        display: none;
     }
 }
 /*-------------------------------------------------Responsive End-----*/
