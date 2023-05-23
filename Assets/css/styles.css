@@ -21,6 +21,7 @@ a:hover {
 }
 
 /*-------------------------------------------------End of links for navbar-----*/
+
 /*-------------------------------------------------Start of navbar and header-----*/
 header {
     position: relative;
@@ -74,11 +75,9 @@ header {
 
 .open_hrs {
     display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 0 auto;
     background-color: #f09819;
-    width: 50%;
-    padding-right: 20px;
 }
 /*-------------------------------------------------End of navbar and header-----*/
 
@@ -143,12 +142,6 @@ header {
     font-size: 0.6rem;
 }
 
-img {
-    margin: 15px auto;
-    text-align: center;
-    display: block;
-    width: 50%;
-}
 /*-------------------------------------------------Main section End-----*/
 
 /*-------------------------------------------------style text section Start-----*/
@@ -171,28 +164,27 @@ img {
 }
 #specialize {
     text-align: center;
-    margin-top: 50px;
+    margin-bottom: 50px;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
-
-.Pitch h3 {
-    font-size: 0.6rem;
+.pitch {
+    display: flex;
     text-align: center;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-top: 10%;
-    z-index: -1;
+    margin: 0 auto;
 }
-.Pitch p {
-    text-align: center;
-    margin-top: 30px;
+.pitch-img {
+    width: 50%;
+    height: 25%;
+    margin: 25px 20px 20px 20px;
 }
-.product-list {
+.pitch p {
     text-align: center;
-    padding-top: 15px;
-    line-height: 30px;
-    max-width: 97%;
+    padding-right: 10px;
+}
+.pitch li {
+    text-align: left;
 }
 .hvr-float {
     display: block;
@@ -269,13 +261,6 @@ img {
     .open_hrs h2 {
         font-size: 20px;
     }
-    .open_hrs {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        background-color: #f09819;
-        width: 70%;
-    }
 }
 
 /*-------------------------------------------------Responsive Menu for phone-----*/
@@ -296,18 +281,25 @@ img {
         font-weight: 500;
         display: flex;
     }
-
-    .Pitch li {
-        text-align: left;
+    .pitch {
+        display: block;
+        text-align: center;
         margin: 0 auto;
     }
-    .open_hrs {
-        display: flex;
-        justify-content: center;
+    .pitch-img {
+        width: 70%;
+    }
+    .pitch-img {
+        width: 70%;
         margin: 0 auto;
-        background-color: #f09819;
-        width: 100%;
-        padding-bottom: 5px;
+    }
+    #pitch-img {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        justify-items: center;
     }
 }
 /*-------------------------------------------------Responsive End-----*/
+
+/*------------------------------------------------start of product page---*/
