@@ -209,20 +209,22 @@ header {
 .delivers p {
     text-align: center;
 }
-
+#adress {
+    text-align: center;
+}
 .footer {
-    margin-top: o;
 }
 /*-------------------------------------------------style text section end-----*/
 
 /*-------------------------------------------------Btn section Start-----*/
 .Contact-btn {
+    width: 10%;
     margin: 40px auto;
     padding: 15px 30px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
-    background-size: 200% auto;
+
     color: white;
     border-radius: 10px;
     display: block;
@@ -284,6 +286,9 @@ header {
         font-weight: 500;
         display: flex;
     }
+    .product-nav {
+        display: none;
+    }
     .pitch {
         display: block;
         text-align: center;
@@ -305,7 +310,22 @@ header {
     .map {
         display: none;
     }
+    .adress {
+        display: none;
+    }
 }
 /*-------------------------------------------------Responsive End-----*/
 
 /*------------------------------------------------start of product page---*/
+.product-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.productimages {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
