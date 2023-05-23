@@ -64,12 +64,21 @@ header {
     cursor: pointer;
 }
 
+.product-icons {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
 .open_hrs {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     background-color: #f09819;
     width: 50%;
+    padding-right: 20px;
 }
 /*-------------------------------------------------End of navbar and header-----*/
 
@@ -81,7 +90,7 @@ header {
     top: 60px;
     height: 0;
     width: 300px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(124, 115, 115);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -139,7 +148,6 @@ img {
     text-align: center;
     display: block;
     width: 50%;
-    border: 1px solid black;
 }
 /*-------------------------------------------------Main section End-----*/
 
@@ -174,6 +182,7 @@ img {
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 10%;
+    z-index: -1;
 }
 .Pitch p {
     text-align: center;
@@ -255,7 +264,7 @@ img {
         text-align: left;
         margin: 0 auto;
         font-size: 14px;
-        padding-right: 25px;
+        padding-right: 30px;
     }
     .open_hrs h2 {
         font-size: 20px;
