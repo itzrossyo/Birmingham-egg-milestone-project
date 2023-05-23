@@ -67,9 +67,9 @@ header {
 .open_hrs {
     display: flex;
     justify-content: center;
-    margin: 20% auto 0;
+    margin: 0 auto;
     background-color: #f09819;
-    width: 70%;
+    width: 50%;
 }
 /*-------------------------------------------------End of navbar and header-----*/
 
@@ -181,6 +181,9 @@ img {
 }
 .product-list {
     text-align: center;
+    padding-top: 15px;
+    line-height: 30px;
+    max-width: 97%;
 }
 .hvr-float {
     display: block;
@@ -191,8 +194,8 @@ img {
     margin: 5px auto;
 }
 .open_hrs ul {
+    text-align: left;
     margin: 0 auto;
-    padding-left: 40px;
 }
 
 .delivers h2 {
@@ -246,6 +249,26 @@ img {
 }
 /*-------------------------------------------------Btn section End-----*/
 
+/*-------------------------------------------------Responsive Menu for tablet-----*/
+@media only screen and (max-width: 968px) {
+    .open_hrs li {
+        text-align: left;
+        margin: 0 auto;
+        font-size: 14px;
+        padding-right: 25px;
+    }
+    .open_hrs h2 {
+        font-size: 20px;
+    }
+    .open_hrs {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        background-color: #f09819;
+        width: 70%;
+    }
+}
+
 /*-------------------------------------------------Responsive Menu for phone-----*/
 @media only screen and (max-width: 667px) {
     .navbar .link,
@@ -264,23 +287,18 @@ img {
         font-weight: 500;
         display: flex;
     }
-    .open_hrs {
-        display: flex;
-        justify-content: center;
-        margin: 20% auto 0;
-        background-color: #f09819;
-        width: 100%;
-    }
+
     .Pitch li {
         text-align: left;
         margin: 0 auto;
     }
-    img {
-        margin: 15px auto;
-        text-align: center;
-        display: block;
-        width: 50%;
-        border: 1px solid black;
+    .open_hrs {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        background-color: #f09819;
+        width: 100%;
+        padding-bottom: 5px;
     }
 }
 /*-------------------------------------------------Responsive End-----*/
