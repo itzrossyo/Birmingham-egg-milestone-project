@@ -353,3 +353,26 @@ header {
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
 }
+/*------------------------------------------------End of product page---*/
+
+/*------------------------------------------------start of about us page---*/
+.whoarewe {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.teamphoto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#our-team,
+h2,
+p {
+    text-align: center;
+}
