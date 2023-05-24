@@ -213,6 +213,7 @@ header {
     text-align: center;
 }
 .footer {
+    width: 100%;
 }
 /*-------------------------------------------------style text section end-----*/
 
@@ -286,9 +287,7 @@ header {
         font-weight: 500;
         display: flex;
     }
-    .product-nav {
-        display: none;
-    }
+
     .pitch {
         display: block;
         text-align: center;
@@ -312,6 +311,13 @@ header {
     }
     .adress {
         display: none;
+    }
+
+    #bar {
+        display: none;
+    }
+    hr {
+        margin-bottom: 25px;
     }
 }
 /*-------------------------------------------------Responsive End-----*/
@@ -339,5 +345,5 @@ header {
     text-align: center;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
