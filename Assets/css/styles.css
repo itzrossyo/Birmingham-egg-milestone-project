@@ -335,11 +335,11 @@ header {
     justify-content: space-evenly;
 }
 .productimages {
-    width: 100%;
     display: flex;
 }
 .products-images {
     margin: 0 auto;
+    width: 100%;
 }
 
 #chicken-images {
