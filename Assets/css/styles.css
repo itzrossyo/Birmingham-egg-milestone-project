@@ -326,17 +326,16 @@ header {
 
 .product-nav {
     margin-right: 30px;
+    display: flex;
 }
 
 .product-nav ul {
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .productimages {
-    width: 90%;
-    display: flex;
-    gap: 5px;
+    margin-top: 25px;
 }
 
 #chicken-images {
