@@ -364,7 +364,21 @@ header {
     letter-spacing: 1px;
     text-align: center;
 }
+.productimages {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
+.products-images {
+    width: 60%;
+}
+.teamphoto {
+    display: flex;
+    justify-content: center;
+}
 .teamphoto img {
     width: 100%;
 }
