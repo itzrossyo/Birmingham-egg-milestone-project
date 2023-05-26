@@ -138,6 +138,11 @@ header {
     font-size: 0.6rem;
 }
 
+.lostpage-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 /*-------------------------------------------------Main section End-----*/
 
 /*-------------------------------------------------style text section Start-----*/
@@ -214,6 +219,11 @@ header {
 }
 .footer {
     width: 100%;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
 }
 /*-------------------------------------------------style text section end-----*/
 
