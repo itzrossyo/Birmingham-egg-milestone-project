@@ -375,6 +375,13 @@ header {
 .products-images {
     width: 60%;
 }
+.div-for-who-are-we {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 .teamphoto {
     display: flex;
     justify-content: center;
