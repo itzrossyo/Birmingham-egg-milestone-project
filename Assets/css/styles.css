@@ -74,7 +74,7 @@ header {
     right: 2rem;
     top: 60px;
     height: 0;
-    width: 300px;
+
     background: rgb(124, 115, 115);
     backdrop-filter: blur(15px);
     border-radius: 10px;
@@ -91,9 +91,8 @@ header {
 
 .dropdown-menu li {
     padding: 0.7rem;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .dropdown-menu .action_btn {
