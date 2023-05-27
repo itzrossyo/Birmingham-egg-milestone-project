@@ -98,7 +98,7 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 ### Colour Scheme
 
-![Birmingham Egg Website Colour Palette](/Assets/readme-images/color%20pallet.png)
+![Birmingham Egg Website Colour Palette](./Assets/readme-images/color%20pallet.png)
 
 The website uses a palette of pastel colours that are often used in the Birmingham Eggs images. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
