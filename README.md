@@ -281,8 +281,8 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 #### Index Page
 
 Initial lighthouse testing :
-[Lighthouse Testing for Desktop Index Page - Test 1](Assets/readme-images/lighthouse-score%20desktop.png) ~
-[Lighthouse Testing for Mobile Index Page - Test 1](Assets/readme-images/Lighthouse-mobile.png)
+![Lighthouse Testing for Desktop Index Page - Test 1](Assets/readme-images/lighthouse-score%20desktop.png) ~
+![Lighthouse Testing for Mobile Index Page - Test 1](Assets/readme-images/Lighthouse-mobile.png)
 
 Suggestions:
 Desktop:
@@ -300,5 +300,3 @@ Final lighthouse testing:
 
 ![Final Lighthouse Testing for Desktop Books Page](docs/testing/lighthouse/booksdesktop2.png)
 ![Final Lighthouse Testing for Mobile Books Page](docs/testing/lighthouse/booksmobile2.png)
-
-#### Contact Us Page
