@@ -230,12 +230,12 @@ The following issues were raised during my mid project meeting with my mentor:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
--   [Index Page HTML](docs/testing/w3c/w3cindex.png)
--   [Books Page HTML](docs/testing/w3c/w3cbooks.png)
+-   [Index Page HTML](./Assets/readme-images/index%20validatior.png)
+-   [About Us HTML](docs/testing/w3c/w3cbooks.png)
+-   [Who are we HTML](docs/testing/w3c/w3cbooks.png)
 -   [Contact Us Page HTML](docs/testing/w3c/w3ccontact.png)
--   [Thank You Page HTML](docs/testing/w3c/w3cthankyou.png)
 -   [404 Page HTML](docs/testing/w3c/w3c404.png)
--   [style.css CSS](docs/testing/w3c/w3ccss.png)
+-   [style.css CSS](./Assets/readme-images/Css%20jigsaw.png)
 
 ### Solved Bugs
 
