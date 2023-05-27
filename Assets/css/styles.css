@@ -65,12 +65,6 @@ header {
     cursor: pointer;
 }
 
-.open_hrs {
-    display: flex;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 50px;
-}
 /*-------------------------------------------------End of navbar and header-----*/
 
 /*------------------------------------------------Dropdown Menu------------------------------------------------*/
@@ -176,7 +170,16 @@ header {
 }
 .pitch {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.pie-pitch {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -193,19 +196,31 @@ header {
     text-align: left;
     padding: 5px;
 }
+.pie-pitch h3 {
+    text-align: center;
+    padding-right: 10px;
+}
+.pie-pitch p {
+    text-align: center;
+    padding-right: 10px;
+}
+.pie-pitch li {
+    text-align: left;
+    padding: 5px;
+}
 .hvr-float {
     display: block;
     cursor: pointer;
 }
 
-.open_hrs img {
-    margin: 5px auto;
+.open-hours {
+    display: flex;
+    flex-direction: column;
 }
-.open_hrs ul {
-    text-align: left;
+.open_hrs {
+    text-align: center;
     margin: 0 auto;
 }
-
 .delivers h2 {
     text-align: center;
     margin-top: 20%;
@@ -216,6 +231,7 @@ header {
 #adress {
     text-align: center;
 }
+
 .footer {
     width: 100%;
     position: sticky;
@@ -264,7 +280,7 @@ header {
 }
 /*-------------------------------------------------Btn section End-----*/
 
-/*-------------------------------------------------Responsive Menu for tablet-----*/
+/*-------------------------------------------------Responsive Menu for table-----*/
 @media only screen and (max-width: 968px) {
     .open_hrs li {
         text-align: left;
@@ -274,6 +290,9 @@ header {
     }
     .open_hrs h2 {
         font-size: 20px;
+    }
+    .map {
+        width: 768px;
     }
 }
 
