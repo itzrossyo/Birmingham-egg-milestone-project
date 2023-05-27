@@ -266,8 +266,10 @@ Desktop:
    Final lighthouse testing:
 4. Document does not have a meta description
 
+Suggestions:
 Mobile:
-1.List items <li> are not contained within ul, ol or menu parent elements.
+
+1.List items li are not contained within ul, ol or menu parent elements.
 
 Final lighthouse testing:
 
