@@ -39,7 +39,7 @@ The aims for this website are to make it easier for existing and new potential c
      <details> 
        <summary>Wireframes</summary>
 
-    ![Desktop home page wireframe](./Assets/readme-images/About%20Us-desktop.png"desktop home page wireframe")
+    ![Desktop home page wireframe](Assets/readme-images/About%20Us-desktop.png "desktop home page wireframe")
     ![tablet  page wireframe](./assets/readme-images/About%20Us-tablet.png.png "Tablet homepage wireframe")
     ![Tablet home page wireframe](/assets/readme-images/tablet%20Home.png "tablet home page wireframe")
     ![Tablet reservation page wireframe](/assets/readme-images/Tablet%20Reservation%20Page.png "tablet reservation wireframe") ![Mobile home page wireframe](/assets/readme-images/Mobile%20home.jpg "mobile home wireframe")
