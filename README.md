@@ -138,38 +138,11 @@ The website is comprised of 9 pages, all are accessible from the navigation menu
 -   Home Page.
 
     -   what are brimgingham egg main features .
-        The photographs shows the pitch of Birmingham egg and waht things they are for sale .
-    -   About Us Section.
-        This section is broken down into four subsections and gives users some information on the book club. On large screens the subsections are laid out in a row, however on mobile devices the subsections are stacked vertically.
-    -   Join Us Section.
-        This section gives the user more information on how they can join in with the book club.
-
--   Books Page. The navigation link for books is a drop down menu with the following sections:
-
-    -   Currently Reading.
-        This takes the user to the card of the book the book club is currently reading.
-    -   Reading Next.
-        This takes the user to the card of the book the book club will be reading next.
-    -   Yearly Sections.
-        This takes the user to the section of the year they have chosen. There are currently 3 years to select from.
-        The books page implements a return to top icon which allows users to return to the navigation menu easily from any point as they scroll down the page.
 
 -   Contact Us Page.
 
-    -   A List of reasons users may want to contact the book club.
     -   Form
-        The form contains fields for the users name, email address, instagram handle, checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
-
--   Thank You Page.
-
-    -   A message thanks the user for submitting the form and lets them know someone will be in touch soon.
-    -   Image and message from Harrison Ford, Dictator of the Bully Bookclub.
-
--   Future Implementations.
-    -   Use javascript to perform return to top function on books page.
-    -   Use javascript and listeners to require at least one checkbox to be checked before submitting the form on contact us page.
-    -   A meet the members page - This would have a photo of the member together with a small bio. A link to their instagram and/or goodreads page.
-    -   Competitions/giveaways page - This page would give further information/rules on the competitions and giveaways the book club hosts.
+        The form contains fields for the users name, email address and checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
 
 ### Accessibility
 
@@ -294,7 +267,7 @@ Desktop:
 4. Document does not have a meta description
 
 Mobile:
-1.List items (<li>) are not contained within <ul>, <ol> or <menu> parent elements.
+1.List items <li> are not contained within ul, ol or menu parent elements.
 
 Final lighthouse testing:
 
