@@ -47,15 +47,12 @@ The Bully Book Club website is designed to be responsive website allowing visito
     -   [Testing User Stories](#Testing-User-Stories)
     -   [Lighthouse](#Lighthouse)
         -   [Index Page](#Index-Page)
-        -   [Books Page](#Books-Page)
         -   [Contact Us Page](#Contact-Us-Page)
-        -   [Thank You Page](#Thank-You-Page)
+
     -   [Full Testing](#Full-Testing)
--   [Credits](#Credits)
-    -   [Code Used](#Code-Used)
+
     -   [Content](#Content)
     -   [Media](#Media)
-    -   [Acknowledgments](#Acknowledgments)
 
 ---
 
