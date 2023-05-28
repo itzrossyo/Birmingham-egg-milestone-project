@@ -231,6 +231,10 @@ header {
 .delivers p {
     text-align: center;
 }
+
+.map {
+    width: 100%;
+}
 #adress {
     text-align: center;
 }
@@ -295,7 +299,7 @@ header {
         font-size: 20px;
     }
     .map {
-        width: 768px;
+        width: 100%;
     }
 }
 
@@ -311,7 +315,7 @@ header {
         font-size: 20px;
     }
     .map {
-        margin: 0 auto;
+        width: 100%;
     }
 }
 
