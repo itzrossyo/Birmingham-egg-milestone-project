@@ -19,6 +19,13 @@ a {
 a:hover {
     color: rgb(110, 86, 15);
 }
+.current:active {
+    text-decoration: underline;
+    color: white;
+}
+.current {
+    text-decoration: underline;
+}
 
 /*-------------------------------------------------End of links for navbar-----*/
 
@@ -111,8 +118,7 @@ header {
     padding-left: 5px;
     padding-right: 5px;
 }
-.welcome-to-birmingham h3 {
-    font-size: 0.9rem;
+.welcome-to-birmingham h1 {
     padding-left: 4px;
     padding-right: 4px;
     text-align: center;
@@ -123,11 +129,11 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .footer {
     background-color: #f09819;
     width: 100%;
     text-align: center;
-    font-size: 0.6rem;
 }
 
 .lostpage-image {
@@ -138,6 +144,12 @@ header {
 /*-------------------------------------------------Main section End-----*/
 
 /*-------------------------------------------------style text section Start-----*/
+.product-nav {
+    margin-right: 30px;
+    display: flex;
+    font-style: italic;
+}
+
 .products-we-have {
     font-size: 0.9rem;
     text-align: center;
@@ -169,7 +181,6 @@ header {
 }
 .pitch {
     display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 0 auto;
@@ -177,7 +188,6 @@ header {
 }
 .pie-pitch {
     display: flex;
-    flex-direction: column-reverse;
     align-items: center;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -209,7 +219,7 @@ header {
 }
 .hvr-float {
     display: block;
-    cursor: pointer;
+    cursor: none;
 }
 
 .open-hours {
@@ -226,7 +236,7 @@ header {
 }
 .delivers h2 {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 50px;
 }
 .delivers p {
     text-align: center;
@@ -356,6 +366,14 @@ header {
         justify-content: center;
         justify-items: center;
     }
+
+    .pie-pitch {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
     .map {
         display: none;
     }
@@ -368,6 +386,7 @@ header {
     }
     hr {
         margin-bottom: 25px;
+        color: #f09819;
     }
 }
 /*-------------------------------------------------Responsive End-----*/
@@ -377,6 +396,9 @@ header {
 .product-nav {
     margin-right: 30px;
     display: flex;
+    background-color: #f09819;
+    width: 100%;
+    border: 1px solid white;
 }
 
 .product-nav ul {
@@ -420,6 +442,7 @@ header {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 50px;
 }
 
 .products-images {
