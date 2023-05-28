@@ -220,6 +220,10 @@ header {
     text-align: center;
     margin: 0 auto;
 }
+.open_hrs li {
+    text-align: left;
+    padding-right: 30px;
+}
 .delivers h2 {
     text-align: center;
     margin-top: 20%;
@@ -292,6 +296,22 @@ header {
     }
     .map {
         width: 768px;
+    }
+}
+
+/*-------------------------------------------------Responsive Menu for small laptop-----*/
+@media only screen and (max-width: 1024px) {
+    .open_hrs li {
+        text-align: left;
+        margin: 0 auto;
+        font-size: 14px;
+        padding-right: 30px;
+    }
+    .open_hrs h2 {
+        font-size: 20px;
+    }
+    .map {
+        margin: 0 auto;
     }
 }
 
