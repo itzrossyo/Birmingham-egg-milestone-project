@@ -1,14 +1,14 @@
 # Birmingham egg
 
-The Bully Book Club website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about the book club.
+Birmingham egg is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about the book club.
 
-![Bully Book Club Website shown on a range of devices](assets/images/bullybookclubwebsite.png)
+![Birmingham egg shown on a range of devices](assets/images/bullybookclubwebsite.png)
 
 [View Birmingham Egg on Github Pages](https://itzrossyo.github.io/Birmingham-egg-milestone-project/)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/bully-book-club?color=red)
-![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/bully-book-club?color=orange)
-![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/bully-book-club?color=yellow)
+![GitHub last commit](https://img.shields.io/github/last-commit/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/bully-book-club?color=green)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
 
@@ -41,11 +41,13 @@ The Bully Book Club website is designed to be responsive website allowing visito
         -   [How to Clone](#How-to-Clone)
 
 -   [Testing](#Testing)
+
     -   [W3C Validator](#W3C-Validator)
     -   [Solved Bugs](#Solved-Bugs)
     -   [Known Bugs](#Known-Bugs)
     -   [Testing User Stories](#Testing-User-Stories)
     -   [Lighthouse](#Lighthouse)
+
         -   [Index Page](#Index-Page)
         -   [Contact Us Page](#Contact-Us-Page)
 
@@ -147,7 +149,6 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 -   Using semantic HTML.
 -   Using descriptive alt attributes on images on the site.
--   Providing information for screen readers where there are icons used and no text - such as the review ratings for books & footer icons.
 -   Ensuring that there is a sufficient colour contrast throughout the site.
 -   Ensuring menus are accessible by marking the current page as current for screen readers.
 
@@ -184,7 +185,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project, Bully-Book-Club.
+2. Find the repository for this project, birmingham-egg-milestone-project.
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -197,7 +198,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 To fork the Birmingham Egg repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, Birmingham-egg-milestone-project.
+2. Go to the repository for this project, Birmingham-egg-Project !(https://github.com/itzrossyo/Birmingham-egg-milestone-project/tree/main)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -206,7 +207,7 @@ To clone the Birmingham egg repository:
 
 1. Log in (or sign up) to GitHub.
 2. Go to the repository for this project, Birmingham-egg-milestone-project.
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+3. Click on the code button, select whether you would like to clone with HTTPS!https://github.com/itzrossyo/Birmingham-egg-milestone-project.git and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
@@ -227,7 +228,7 @@ The following issues were raised during my mid project meeting with my mentor:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
--   [Index Page HTML](./Assets/readme-images/index%20validatior.png)
+-   [Index Page HTML](assets/readme-images/index-validatior.png)
 -   [About Us HTML](docs/testing/w3c/w3cbooks.png)
 -   [Who are we HTML](docs/testing/w3c/w3cbooks.png)
 -   [Contact Us Page HTML](docs/testing/w3c/w3ccontact.png)
@@ -251,7 +252,7 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 #### Index Page
 
 Initial lighthouse testing :
-![Lighthouse Testing for Desktop Index Page - Test 1](Assets/readme-images/lighthouse-score%20desktop.png) ~
+![Lighthouse Testing for Desktop Index Page - Test 1](assets/readme-images/lighthouse-score-desktop.png)
 ![Lighthouse Testing for Mobile Index Page - Test 1](Assets/readme-images/Lighthouse-mobile.png)
 
 Suggestions:
