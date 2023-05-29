@@ -253,7 +253,7 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 Initial lighthouse testing :
 ![Lighthouse Testing for Desktop Index Page - Test 1](assets/readme-images/lighthouse-score-desktop.png)
-![Lighthouse Testing for Mobile Index Page - Test 1](Assets/readme-images/lighthouse-mobile.png)
+![Lighthouse Testing for Mobile Index Page - Test 1](assets/readme-images/lighthouse-mobile.png)
 
 Suggestions:
 Desktop:
