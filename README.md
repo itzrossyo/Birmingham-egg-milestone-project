@@ -1,8 +1,8 @@
 # Birmingham egg
 
-Birmingham egg is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about the book club.
+Birmingham egg is designed to be responsive website allowing visitors to view on a range of devices.
 
-![Birmingham egg shown on a range of devices](assets/images/bullybookclubwebsite.png)
+![Birmingham egg shown on a range of devices](assets/images/birminghamegg.png)
 
 [View Birmingham Egg on Github Pages](https://itzrossyo.github.io/Birmingham-egg-milestone-project/)
 
@@ -10,7 +10,7 @@ Birmingham egg is designed to be responsive website allowing visitors to view on
 ![GitHub contributors](https://img.shields.io/github/contributors/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
-![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
+![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkeritzrossyo.github.io%2FBirmingham-eg-milestone-project)
 
 ## CONTENTS
 
@@ -220,19 +220,18 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 The following issues were raised during my mid project meeting with my mentor:
 
 -   The Join Us section on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
--   There was an issue on smaller devices where the book columns were not displaying properly. This issue is documented under issue 2 in solved bugs.
--   The introduction paragraph on the books page was not aligned in style with the rest of the page. The text has now been centered.
--   The form could be submitted with only a name filled in. ~ A required attribute has been added to the email input and textarea.
+-   There was an issue on smaller devices where the main images were not displaying properly. This issue is documented under issue 2 in solved bugs.
+-   The introduction paragraph on the index was not aligned in style with the rest of the page. The text has now been centered.
 
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
 -   [Index Page HTML](assets/readme-images/index-validatior.png)
--   [About Us HTML](docs/testing/w3c/w3cbooks.png)
--   [Who are we HTML](docs/testing/w3c/w3cbooks.png)
--   [Contact Us Page HTML](docs/testing/w3c/w3ccontact.png)
--   [404 Page HTML](docs/testing/w3c/w3c404.png)
+-   [About Us HTML]()
+-   [Who are we HTML]()
+-   [Contact Us Page HTML]()
+-   [404 Page HTML]()
 -   [style.css CSS](./Assets/readme-images/Css%20jigsaw.png)
 
 ### Solved Bugs
@@ -271,5 +270,5 @@ Mobile:
 
 Final lighthouse testing:
 
-![Final Lighthouse Testing for Desktop Books Page](docs/testing/lighthouse/booksdesktop2.png)
-![Final Lighthouse Testing for Mobile Books Page](docs/testing/lighthouse/booksmobile2.png)
+![Final Lighthouse Testing for Desktop  Page](assets/readme-images/lighthouse-score-desktop.png)
+![Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-mobile.png)
