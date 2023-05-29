@@ -100,7 +100,7 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 ### Colour Scheme
 
-![Birmingham Egg Website Colour Palette](./Assets/readme-images/color%20pallet.png)
+![Birmingham Egg Website Colour Palette](./assets/readme-images/color-pallet.png)
 
 The website uses a palette of pastel colours that are often used in the Birmingham Eggs images. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
@@ -118,11 +118,11 @@ The member images were used with the permission of their owners from Birmingham 
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Home Page Wireframe](Assets/readme-images/Homepage-desktop.png)
+[Home Page Wireframe](Assets/readme-images/homepage-desktop.png)
 
-[Products page Wireframe](/Assets/readme-images/Products-desktop.png)
+[Products page Wireframe](/Assets/readme-images/products-desktop.png)
 
-[About Us Wireframe](/Assets/readme-images/About%20Us-desktop.png)
+[About Us Wireframe](/Assets/readme-images/about-us-desktop.png)
 
 ### Features
 
