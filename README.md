@@ -118,11 +118,11 @@ The member images were used with the permission of their owners from Birmingham 
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Home Page Wireframe](Assets/readme-images/homepage-desktop.png)
+[Home Page Wireframe](./assets/readme-images/homepage-desktop.png)
 
-[Products page Wireframe](/Assets/readme-images/products-desktop.png)
+[Products page Wireframe](./assets/readme-images/products-desktop.png)
 
-[About Us Wireframe](/Assets/readme-images/about-us-desktop.png)
+[About Us Wireframe](./assets/readme-images/about-us-desktop.png)
 
 ### Features
 
