@@ -9,7 +9,7 @@ Birmingham egg is designed to be responsive website allowing visitors to view on
 ![GitHub last commit](https://img.shields.io/github/last-commit/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub contributors](https://img.shields.io/github/contributors/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/bully-book-club?color=green)
+![GitHub top language](https://img.shields.io/github/languages/top/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
 
 ## CONTENTS
