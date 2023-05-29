@@ -1,150 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+        <script
+            src="https://kit.fontawesome.com/3ff087e965.js"
+            crossorigin="anonymous"></script>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+            rel="stylesheet"
+            media="all" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <title>Birmingham Egg</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <script src="https://kit.fontawesome.com/3ff087e965.js" crossorigin="anonymous"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="./Assets/css/styles.css">
-    <title>Birmingham Egg</title>
-</head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo">Birmingham Egg<br />"Only here to help"</div>
+                <ul class="link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
 
-<body>
-    <header>
-        <div class="navbar">
-            <div class="logo">Birmingham Egg<br>"Only here to help"</div>
-            <ul class="link">
+                <a href="tel:+01216223981" class="action_btn">0121-622-3981</a>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="dropdown-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="contact-us.html">Contact</a></li>
-
-            </ul>
-
-
-            <a href="tel:+01216223981"" class=" action_btn">0121-622-3981</a>
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
+                <li>
+                    <a
+                        href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt"
+                        target="_blank"
+                        >Where are we
+                    </a>
+                    <i class="fa-solid fa-location-dot" id="geotag"></i>
+                </li>
             </div>
-        </div>
-        <div class="dropdown-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="contact-us.html">Contact</a></li>
-            <li><a href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt" target="_blank">Where are we </a> <i
-                    class="fa-solid fa-location-dot" id="geotag"></i></li>
-
-        </div>
-    </header>
-    <section class="welcome-to-birmingham">
-        <div>
-            <h3>Who are we</h3>
-        </div>
-        <main>
-            <div class="whoarewe">
-                <p id="whoarewe">Birmingham Egg Marketing was founded in the 1970's by Frank Hickton as a wholesale egg
-                    supplier
-                    selling eggs
-                    across the west midlands. In 1993 we introduced poultry, cooked meats, bacon, sausage and a
-                    selection of
-                    deli products. Even though we specialize in serving the wholesale sector, we are open to serve the
-                    public
-                    .Deliveries for large/regular orders can be arranged for local areas subject to conditions.Want to
-                    know
-                    more
-                    about our products/services ? Get in touch with us today...</p>
+        </header>
+        <section class="welcome-to-birmingham">
+            <div>
+                <h3>Who are we</h3>
             </div>
-        </main>
-    </section>
-    <section class="teamphoto">
-        <div class="div-for-who-are-we ">
-            <img src="./Assets/images/who-are-we-icon.png" alt="team photo">
-        </div>
-    </section>
-    <h2 id="our-team">Our team</h2>
-    <p>Meet the face's behing Birmingham Egg </p>
-
-    <!-- The Team -->
-    <section class="the-team">
-        <div class="grid">
-
-
-
-
-
-            <div class="card">
-
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
+            <main>
+                <div class="whoarewe">
+                    <p id="whoarewe">
+                        Birmingham Egg Marketing was founded in the 1970's by
+                        Frank Hickton as a wholesale egg supplier selling eggs
+                        across the west midlands. In 1993 we introduced poultry,
+                        cooked meats, bacon, sausage and a selection of deli
+                        products. Even though we specialize in serving the
+                        wholesale sector, we are open to serve the public
+                        .Deliveries for large/regular orders can be arranged for
+                        local areas subject to conditions.Want to know more
+                        about our products/services ? Get in touch with us
+                        today...
+                    </p>
+                </div>
+            </main>
+        </section>
+        <section class="teamphoto">
+            <div class="div-for-who-are-we">
+                <img
+                    src="./Assets/images/who-are-we-icon.png"
+                    alt="team photo" />
             </div>
-            <div class="card">
+        </section>
+        <h2 id="our-team">Our team</h2>
+        <p>Meet the face's behing Birmingham Egg</p>
 
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
+        <!-- The Team -->
+        <section class="the-team">
+            <div class="grid">
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <div class="card">
+                    <img
+                        class="chicken-images"
+                        src="./assets/images/placeholder"
+                        alt="Chicken" />
+                    <p>finest Beef</p>
+                </div>
+                <!-- Product End for Beef -->
+
+                <!--End of  products grid -->
             </div>
-            <div class="card">
+        </section>
 
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
+        <footer class="footer">
+            <div>
+                <p>
+                    <i class="fa-regular fa-copyright"></i>2013 by Birmingham
+                    Egg Marketing.
+                </p>
             </div>
-            <div class="card">
-
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
-            </div>
-            <div class="card">
-
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
-            </div>
-            <div class="card">
-
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
-            </div>
-            <div class="card">
-
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
-            </div>
-            <div class="card">
-
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
-            </div>
-            <div class="card">
-
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
-            </div>
-            <div class="card">
-
-                <img class="chicken-images" src="./assets/images/placeholder" alt="Chicken">
-                <p>finest Beef</p>
-            </div>
-            <!-- Product End for Beef -->
-
-
-            <!--End of  products grid -->
-
-        </div>
-    </section>
-
-
-
-
-    <footer class="footer">
-
-        <div>
-            <p><i class="fa-regular fa-copyright"></i>2013 by Birmingham Egg Marketing. </p>
-        </div>
-
-    </footer>
-    <script src="./Assets/Scripts/script.js"></script>
-</body>
-
+        </footer>
+        <script src="./Assets/Scripts/script.js"></script>
+    </body>
 </html>
