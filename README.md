@@ -14,47 +14,47 @@ Birmingham egg is designed to be responsive website allowing visitors to view on
 
 ## CONTENTS
 
--   [User Experience (UX)](<#User-Experience-(UX)>)
+- [User Experience (UX)](<#User-Experience-(UX)>)
 
-    -   [Initial Discussion](#Initial-Discussion)
-    -   [User Stories](#User-Stories)
+  - [Initial Discussion](#Initial-Discussion)
+  - [User Stories](#User-Stories)
 
--   [Design](#Design)
+- [Design](#Design)
 
-    -   [Colour Scheme](#Colour-Scheme)
-    -   [Typography](#Typography)
-    -   [Imagery](#Imagery)
-    -   [Wireframes](#Wireframes)
-    -   [Features](#Features)
-    -   [Accessibility](#Accessibility)
+  - [Colour Scheme](#Colour-Scheme)
+  - [Typography](#Typography)
+  - [Imagery](#Imagery)
+  - [Wireframes](#Wireframes)
+  - [Features](#Features)
+  - [Accessibility](#Accessibility)
 
--   [Technologies Used](#Technologies-Used)
+- [Technologies Used](#Technologies-Used)
 
-    -   [Languages Used](#Languages-Used)
-    -   [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  - [Languages Used](#Languages-Used)
+  - [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
--   [Deployment & Local Development](#Deployment-&-Local-Development)
+- [Deployment & Local Development](#Deployment-&-Local-Development)
 
-    -   [Deployment](#Deployment)
-    -   [Local Development](#Local-Development)
-        -   [How to Fork](#How-to-Fork)
-        -   [How to Clone](#How-to-Clone)
+  - [Deployment](#Deployment)
+  - [Local Development](#Local-Development)
+    - [How to Fork](#How-to-Fork)
+    - [How to Clone](#How-to-Clone)
 
--   [Testing](#Testing)
+- [Testing](#Testing)
 
-    -   [W3C Validator](#W3C-Validator)
-    -   [Solved Bugs](#Solved-Bugs)
-    -   [Known Bugs](#Known-Bugs)
-    -   [Testing User Stories](#Testing-User-Stories)
-    -   [Lighthouse](#Lighthouse)
+  - [W3C Validator](#W3C-Validator)
+  - [Solved Bugs](#Solved-Bugs)
+  - [Known Bugs](#Known-Bugs)
+  - [Testing User Stories](#Testing-User-Stories)
+  - [Lighthouse](#Lighthouse)
 
-        -   [Index Page](#Index-Page)
-        -   [Contact Us Page](#Contact-Us-Page)
+    - [Index Page](#Index-Page)
+    - [Contact Us Page](#Contact-Us-Page)
 
-    -   [Full Testing](#Full-Testing)
+  - [Full Testing](#Full-Testing)
 
-    -   [Content](#Content)
-    -   [Media](#Media)
+  - [Content](#Content)
+  - [Media](#Media)
 
 ---
 
@@ -66,33 +66,33 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 #### Key information for the site
 
--   how to get there.
--   contact information about delvirys.
--   what products they have for sale.
+- how to get there.
+- contact information about delvirys.
+- what products they have for sale.
 
 ### User Stories
 
 #### Client Goals
 
--   To be able to view the site on a range of device sizes.
--   To make it easy for potential members of the public to find out what products they have for sale.
--   how to find where they are bassed
--   To allow people to be able to contact Birmginham egg to ask further questions.
+- To be able to view the site on a range of device sizes.
+- To make it easy for potential members of the public to find out what products they have for sale.
+- how to find where they are bassed
+- To allow people to be able to contact Birmginham egg to ask further questions.
 
 #### First Time Visitor Goals
 
--   I want to find out what birmingham egg sale and how I can vist.
--   I want to be able to navigate the site easily to find information.
--   I want to be able to find their team members profile.
+- I want to find out what birmingham egg sale and how I can vist.
+- I want to be able to navigate the site easily to find information.
+- I want to be able to find their team members profile.
 
 #### Returning Visitor Goals
 
--   I want to find up to date information on what products i can buy .
--   I want to be able to easily contact birmingham egg with questions I might have.
+- I want to find up to date information on what products i can buy .
+- I want to be able to easily contact birmingham egg with questions I might have.
 
 #### Frequent Visitor Goals
 
--   I want to be able to recommend brimingham egg.
+- I want to be able to recommend brimingham egg.
 
 ---
 
@@ -108,7 +108,7 @@ The website uses a palette of pastel colours that are often used in the Birmingh
 
 Google Fonts was used for the following fonts:
 
--   Roboto is used through outsite. with a full back ans-serif.
+- Roboto is used through outsite. with a full back ans-serif.
 
 ### Imagery
 
@@ -128,29 +128,29 @@ Wireframes were created for mobile, tablet and desktop.
 
 The website is comprised of 9 pages, all are accessible from the navigation menu (home page, products page, about us page & contact us page). The 5 other page is a is shown once a user is on the product page and then they are able to select other products to filter out.
 
--   All Pages on the website have:
+- All Pages on the website have:
 
-    -   A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an slogan of birmingham eggs moto. in the center of the navigation bar are the links to the websites pages (home, products, about us and contact). To allow a good user experience of the site, the links are hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+  - A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an slogan of birmingham eggs moto. in the center of the navigation bar are the links to the websites pages (home, products, about us and contact). To allow a good user experience of the site, the links are hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
 
-    -   A footer which contains the copyright information for the company
+  - A footer which contains the copyright information for the company
 
--   Home Page.
+- Home Page.
 
-    -   what are brimgingham egg main features .
+  - what are brimgingham egg main features .
 
--   Contact Us Page.
+- Contact Us Page.
 
-    -   Form
-        The form contains fields for the users name, email address and checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
+  - Form
+    The form contains fields for the users name, email address and checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
 
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
--   Using semantic HTML.
--   Using descriptive alt attributes on images on the site.
--   Ensuring that there is a sufficient colour contrast throughout the site.
--   Ensuring menus are accessible by marking the current page as current for screen readers.
+- Using semantic HTML.
+- Using descriptive alt attributes on images on the site.
+- Ensuring that there is a sufficient colour contrast throughout the site.
+- Ensuring menus are accessible by marking the current page as current for screen readers.
 
 ---
 
@@ -175,6 +175,8 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 [Favicon.io](https://favicon.io/) To create favicon.
 
 [Shields.io](https://shields.io/) To add badges to the README
+
+[formspree.io](https://formspree.io) - for easy form submiting untill backend is done.
 
 ---
 
@@ -219,20 +221,20 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 The following issues were raised during my mid project meeting with my mentor:
 
--   The Join Us section on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
--   There was an issue on smaller devices where the main images were not displaying properly. This issue is documented under issue 2 in solved bugs.
--   The introduction paragraph on the index was not aligned in style with the rest of the page. The text has now been centered.
+- The Join Us section on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
+- There was an issue on smaller devices where the main images were not displaying properly. This issue is documented under issue 2 in solved bugs.
+- The introduction paragraph on the index was not aligned in style with the rest of the page. The text has now been centered.
 
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
--   [Index Page HTML](assets/readme-images/index-validatior.png)
--   [About Us HTML]()
--   [Who are we HTML]()
--   [Contact Us Page HTML]()
--   [404 Page HTML]()
--   [style.css CSS](./Assets/readme-images/Css%20jigsaw.png)
+- [Index Page HTML](assets/readme-images/index-validatior.png)
+- [About Us HTML]()
+- [Who are we HTML]()
+- [Contact Us Page HTML]()
+- [404 Page HTML]()
+- [style.css CSS](./Assets/readme-images/Css%20jigsaw.png)
 
 ### Solved Bugs
 
@@ -240,9 +242,9 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Testing User Stories
 
--   First Time Visitors
+- First Time Visitors
 
-    -   I want to find out what is Birmingham Egg and how to contact them.
+  - I want to find out what is Birmingham Egg and how to contact them.
 
 ### Lighthouse
 
