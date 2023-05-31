@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap");
 /* CSS Variables */
+
 :root {
-  --main-color: rgb(242, 169, 59);
-  --Bg-color: rgb(155, 155, 155);
+  --main-color: rgb(239, 160, 40);
+  --Bg-color: rgb(157, 148, 148);
   --form-color: rgb(243, 134, 28);
 }
 
@@ -313,9 +314,14 @@ footer {
 .chicken-images {
   width: 90%;
   margin: 0 auto;
+  border-radius: 20%;
+}
+.chicken-images:hover {
+ transform: scale(105%);
 }
 
 .grid {
+  margin-top:5px;
   text-align: center;
   display: grid;
   gap: 1rem;
@@ -427,8 +433,8 @@ p {
 
 /*-------------------------------------------------Btn section Start-----*/
 .Contact-btn {
-  width: 20%;
-  margin: 40px auto;
+  width: 10%;
+  margin: 20px auto;
   padding: 15px 30px;
   text-align: center;
   text-transform: uppercase;
@@ -464,7 +470,7 @@ p {
 
 /*-------------------------------------------------Btn section End-----*/
 
-/*-------------------------------------------------Responsive Menu for table-----*/
+/*-------------------------------------------------Responsive Menu for tablet-----*/
 @media only screen and (max-width: 968px) {
   .open_hrs li {
     text-align: left;
@@ -555,6 +561,14 @@ p {
     display: none;
   }
 
+  .Contact-btn {
+    width: 20%;
+    margin: 20px auto;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
   .address {
     display: none;
   }
