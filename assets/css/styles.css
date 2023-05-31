@@ -304,10 +304,6 @@ footer {
   margin: 2px;
 }
 
-.productimages {
-  display: flex;
-}
-
 .products-images {
   margin: 0 auto;
   width: 100%;
@@ -345,7 +341,7 @@ footer {
 .productimages {
   display: flex;
   justify-content: center;
-  margin: 10px 10px 10px 50px;
+  margin: 10px auto;
 }
 
 .products-images {
@@ -473,7 +469,7 @@ p {
 /*-------------------------------------------------Btn section End-----*/
 
 /*-------------------------------------------------Responsive Menu for tablet-----*/
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 768px) {
   .open_hrs li {
     text-align: left;
     margin: 0 auto;
@@ -638,11 +634,26 @@ p {
     color: #0e0b3d;
     background-color: #f09819;
   }
+
+  .product-nav {
+    display: flex;
+    background-color: var(--main-color);
+    width: 99%;
+    border: 1px solid white;
+    align-items: center;
+  }
+
+  .product-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .product-nav a {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 12px;
+    font-size: 10px;
   }
   .chicken-images {
     transform: scale(105%);
