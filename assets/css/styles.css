@@ -1,16 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap");
 /* CSS Variables */
 :root {
-    --fc-border-color: #424348;
-    --fc-normal-text-color: #0e0b3d;
-    --fc-normal-placeholder-color: #b3b8d0;
-    --fc-primary-color-hue: 220;
-    --fc-error-color-hue: 356;
-    --fc-primary-hsl: var(--fc-primary-color-hue), 100%, 54%;
-    --fc-error-hsl: var(--fc-error-color-hue), 100%, 54%;
-    --fc-field-hover-bg-color: #f7f9fc;
-    --fc-border-hover-color: #dde0ee;
-    --fc-field-hover-text-color: #b3b8d0;
+    --main-color: rgb(242, 169, 59);
+    --Bg-color: rgb(155, 155, 155);
+    --form-color: rgb(243, 134, 28);
 }
 
 body {
@@ -18,7 +11,7 @@ body {
     padding: 0;
     font-family: "Roboto", sans-serif;
     height: 100vh;
-    background-color: rgb(155, 155, 155);
+    background-color: var(--Bg-color);
 }
 
 /*-------------------------------------------------start of links for navbar-----*/
@@ -51,7 +44,7 @@ a:hover {
 header {
     position: relative;
     padding: 0 2rem;
-    background-color: orange;
+    background-color: var(--main-color);
 }
 
 .navbar {
@@ -64,7 +57,7 @@ header {
     justify-content: space-between;
 }
 
-.bavbar .logo a {
+.navbar .logo a {
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -82,7 +75,7 @@ header {
 }
 
 .action_btn {
-    background-color: orange;
+    background-color: var(--main-color);
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -154,7 +147,7 @@ h1 {
 }
 
 .footer {
-    background-color: #f09819;
+    background-color: var(--main-color);
     width: 100%;
     position: fixed;
     left: 0;
@@ -204,24 +197,22 @@ h1 {
 
 #specialize {
     text-align: center;
-    margin-bottom: 50px;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
 }
 
 .pitch {
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px 0;
+
 }
 
 .pie-pitch {
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px 0;
 }
 
 .pitch-img {
@@ -308,7 +299,7 @@ h1 {
 .product-nav {
     margin-right: 30px;
     display: flex;
-    background-color: #f09819;
+    background-color: var(--main-color);
     width: 100%;
     border: 1px solid white;
 }
@@ -317,6 +308,7 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-right: 30px;
 }
 
 .productimages {
@@ -355,10 +347,7 @@ h1 {
 .productimages {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 50px;
+    margin: 10px 10px 10px 50px;
 }
 
 .products-images {
@@ -393,8 +382,7 @@ p {
 
 .form-container {
     max-width: 400px;
-    margin-top: 25px;
-    margin: 0 auto;
+    margin: 25px auto;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -408,7 +396,7 @@ p {
 
 .contact-form {
     margin-top: 25px;
-    background-color: #f09819;
+    background-color: var(--form-color);
     width: 100%;
     border-radius: 10%;
     box-shadow: 2px 2px #424348;
@@ -434,7 +422,7 @@ p {
 
 .form-submit {
     padding: 15px 20px;
-    background-color: orange;
+    background-color: var(--form-color);
     color: #fff;
     border: 1px solid black;
     border-radius: 4px;
@@ -565,15 +553,14 @@ p {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        margin: 0 auto;
-        margin-bottom: 20px;
+        margin: 0 auto 20px 0;
     }
 
     .map {
         display: none;
     }
 
-    .adress {
+    .address {
         display: none;
     }
 
@@ -588,8 +575,7 @@ p {
 
     .form-container {
         max-width: 400px;
-        margin-top: 25px;
-        margin: 0 auto;
+        margin: 25px auto;
         text-align: center;
         height: 100vh;
         display: flex;
@@ -603,7 +589,7 @@ p {
 
     .contact-form {
         margin-top: 25px;
-        background-color: #f09819;
+        background-color: var( --form-color);
         width: 80%;
         border-radius: 15px;
         box-shadow: 2px 2px #424348;
@@ -629,7 +615,7 @@ p {
 
     .form-submit {
         padding: 15px 20px;
-        background-color: orange;
+        background-color: var(--form-color);
         color: #fff;
         border: 1px solid black;
         border-radius: 4px;
