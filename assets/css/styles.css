@@ -167,7 +167,6 @@ footer {
 
 /*-------------------------------------------------style text section Start-----*/
 
-
 .products-we-have {
   font-size: 0.9rem;
   text-align: center;
@@ -297,7 +296,7 @@ footer {
   justify-content: space-evenly;
   margin-right: 30px;
 }
-.product-nav  a {
+.product-nav a {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -320,11 +319,11 @@ footer {
   border-radius: 20%;
 }
 .chicken-images:hover {
- transform: scale(105%);
+  transform: scale(105%);
 }
 
 .grid {
-  margin-top:5px;
+  margin-top: 5px;
   text-align: center;
   display: grid;
   gap: 1rem;
@@ -510,7 +509,7 @@ p {
 }
 
 /*-------------------------------------------------Responsive Menu for phone-----*/
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 480px) {
   .navbar .link,
   .navbar .action_btn {
     display: none;
@@ -585,7 +584,6 @@ p {
     color: #f09819;
   }
 
-
   .form-container {
     max-width: 400px;
     margin: 25px auto;
@@ -639,6 +637,18 @@ p {
   .form-submit:hover {
     color: #0e0b3d;
     background-color: #f09819;
+  }
+  .product-nav a {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+  .chicken-images {
+    transform: scale(105%);
+  }
+  .chicken-images:hover {
+    transform: scale(105%);
   }
 }
 
