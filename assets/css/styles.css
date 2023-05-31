@@ -166,11 +166,7 @@ footer {
 /*-------------------------------------------------Main section End-----*/
 
 /*-------------------------------------------------style text section Start-----*/
-.product-nav {
-  margin-right: 30px;
-  display: flex;
-  font-style: italic;
-}
+
 
 .products-we-have {
   font-size: 0.9rem;
@@ -300,6 +296,13 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin-right: 30px;
+}
+.product-nav  a {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  margin: 2px;
 }
 
 .productimages {
@@ -582,9 +585,6 @@ p {
     color: #f09819;
   }
 
-  .product-list li {
-    margin: 0 auto;
-  }
 
   .form-container {
     max-width: 400px;
