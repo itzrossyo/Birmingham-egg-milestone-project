@@ -300,7 +300,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  font-size: 12px;
+  font-size: 16px;
   margin: 2px;
 }
 
@@ -314,9 +314,7 @@ footer {
   margin: 0 auto;
   border-radius: 20%;
 }
-.chicken-images:hover {
-  transform: scale(105%);
-}
+
 
 .grid {
   margin-top: 5px;
@@ -638,9 +636,10 @@ p {
   .product-nav {
     display: flex;
     background-color: var(--main-color);
-    width: 99%;
+    width: 98.8%;
     border: 1px solid white;
     align-items: center;
+    margin-left: 1px;
   }
 
   .product-nav ul {
@@ -655,12 +654,8 @@ p {
     justify-content: space-evenly;
     font-size: 10px;
   }
-  .chicken-images {
-    transform: scale(105%);
-  }
-  .chicken-images:hover {
-    transform: scale(105%);
-  }
+
+
 }
 
 /*-------------------------------------------------Responsive End-----*/

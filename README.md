@@ -10,7 +10,7 @@ Birmingham egg is designed to be responsive website allowing visitors to view on
 ![GitHub contributors](https://img.shields.io/github/contributors/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
-![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkeritzrossyo.github.io%2FBirmingham-eg-milestone-project)
+![W3C Validation](https://img.shields.io/w3c-validation/html?style=flat-square&targetUrl=https%3A%2F%2Fitzrossyo.github.io%2FBirmingham-egg-milestone-project%2F)
 
 ## CONTENTS
 
