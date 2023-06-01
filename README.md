@@ -270,13 +270,23 @@ Mobile:
 
 1.List items li are not contained within ul, ol or menu parent elements.
 
-Pre final lighthouse testing:
 
+
+Pre final lighthouse testing:
+<p>After sorting out some of the accessibility out i was able to improve my score</p>
+---
+<h3 align="center">Desktop</h3>
 ![Pre-Final Lighthouse Testing for Desktop  Page](assets/readme-images/lighthouse-desktop-precompleted.png)
+<h3 align="center">Mobile</h3>
 ![Pre-Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-mobile.png)
 
-
+---
 
 Final lighthouse testing:
+
+<h3 align="center">Desktop</h3>
+
 ![Final Lighthouse Testing for Desktop  Page](assets/readme-images/lighthouse-final-desktop.png)
+
+<h3 align="center">Mobile</h3>
 ![Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-final-mobile.png)
