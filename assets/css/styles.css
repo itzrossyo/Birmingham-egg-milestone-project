@@ -506,6 +506,10 @@ p {
   .map {
     width: 100%;
   }
+
+  .img-rotate{
+    height: 74%;
+  }
 }
 
 /*-------------------------------------------------Responsive Menu for phone-----*/
