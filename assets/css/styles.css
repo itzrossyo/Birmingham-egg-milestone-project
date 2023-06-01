@@ -314,7 +314,7 @@ footer {
 .chicken-images {
   width: 90%;
   margin: 0 auto;
-  border-radius: 20%;
+
 }
 
 
@@ -324,6 +324,10 @@ footer {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.img-rotate{
+  height: 85%;
 }
 
 /*------------------------------------------------End of product page---*/
@@ -505,7 +509,7 @@ p {
 }
 
 /*-------------------------------------------------Responsive Menu for phone-----*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .navbar .link,
   .navbar .action_btn {
     display: none;
