@@ -270,7 +270,13 @@ Mobile:
 
 1.List items li are not contained within ul, ol or menu parent elements.
 
-pre final lighthouse testing:
+Pre final lighthouse testing:
 
-![Final Lighthouse Testing for Desktop  Page](assets/readme-images/lighthouse-desktop-precompleted.png)
-![Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-mobile.png)
+![Pre-Final Lighthouse Testing for Desktop  Page](assets/readme-images/lighthouse-desktop-precompleted.png)
+![Pre-Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-mobile.png)
+
+
+
+Final lighthouse testing:
+![Final Lighthouse Testing for Desktop  Page](assets/readme-images/lighthouse-final-desktop.png)
+![Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-final-mobile.png)
