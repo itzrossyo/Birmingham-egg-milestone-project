@@ -11,7 +11,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  height: 100vh;
   background-color: var(--Bg-color);
 }
 
@@ -147,15 +146,23 @@ h1 {
   justify-content: center;
 }
 
-footer {
-  background-color: var(--main-color);
-  width: 100%;
-  position:sticky;
-  left: 0;
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
   bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  background-color: var(--main-color);
   color: white;
-  text-align: center;
-  font-size: 16px;
 }
 
 .lostpage-image {
