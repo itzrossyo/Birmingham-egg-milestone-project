@@ -150,11 +150,12 @@ h1 {
 footer {
   background-color: var(--main-color);
   width: 100%;
-  position: fixed;
+  position:sticky;
   left: 0;
   bottom: 0;
   color: white;
   text-align: center;
+  font-size: 16px;
 }
 
 .lostpage-image {
