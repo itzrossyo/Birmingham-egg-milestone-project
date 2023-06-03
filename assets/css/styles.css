@@ -296,6 +296,7 @@ footer {
   justify-content: space-evenly;
   margin-right: 30px;
 }
+
 .product-nav a {
   width: 100%;
   display: flex;
@@ -314,9 +315,7 @@ footer {
 .chicken-images {
   width: 90%;
   margin: 0 auto;
-
 }
-
 
 .grid {
   margin-top: 5px;
@@ -325,8 +324,17 @@ footer {
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
 }
-
-.img-rotate{
+.grid-egg {
+  margin-top: 5px;
+  text-align: center;
+  display:grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+.img-rotate-egg {
+  height: 100%;
+}
+.img-rotate {
   height: 85%;
 }
 
@@ -507,7 +515,7 @@ p {
     width: 100%;
   }
 
-  .img-rotate{
+  .img-rotate {
     height: 74%;
   }
 }
@@ -562,9 +570,11 @@ p {
     align-items: center;
     margin: 0 auto 20px 0;
   }
-  .img-rotate{
+
+  .img-rotate {
     height: 57%;
   }
+
   .map {
     display: none;
   }
@@ -577,6 +587,7 @@ p {
     text-transform: uppercase;
     transition: 0.5s;
   }
+
   .address {
     display: none;
   }
@@ -666,8 +677,6 @@ p {
     justify-content: space-evenly;
     font-size: 10px;
   }
-
-
 }
 
 /*-------------------------------------------------Responsive End-----*/
