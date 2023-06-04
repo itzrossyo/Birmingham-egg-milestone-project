@@ -576,7 +576,7 @@ p {
   }
 }
 
-/*-------------------------------------------------Responsive Menu for phone-----*/
+/*-------------------------------------------------Responsive Menu for phone 600px-----*/
 @media only screen and (max-width: 600px) {
   .navbar .link,
   .navbar .action_btn {
@@ -729,9 +729,8 @@ p {
 
   .product-nav a {
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 10px;
+
+    font-size: 8px;
   }
 }
 
