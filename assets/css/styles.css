@@ -116,11 +116,57 @@ header {
   justify-content: right;
 }
 
-.dropdown-menu .action_btn {
+.dropdown-menu .action_btn{
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
+#menu {
+  background: rgb(124, 115, 115);
+  color: #ffffff;
+  display: contents;
+}
+.prett{
+  margin-left: 5px;
+  padding-left: 5px;
+}
+#menu ul,
+#menu li {
+  margin: 0 0;
+  padding: 0 0;
+  list-style: none
+}
+
+#menu a {
+  display: block;
+  line-height: 26px;
+  text-decoration: none;
+  color: #eee;
+
+}
+
+#menu li:hover > a,
+#menu li a:hover {
+  background: rgb(124, 115, 115);
+}
+
+#menu ul.menus {
+  height: auto;
+  width: 180px;
+  background: rgb(124, 115, 115);
+  position: absolute;
+  z-index: 99;
+  display: none;
+  border: 0;
+}
+
+
+#menu li:hover ul.menus {
+  display: block;
+  margin-left: 10px;
+}
+
 
 /*-------------------------------------------------Main section Start-----*/
 .main-section h2 {
@@ -545,6 +591,7 @@ p {
   .dropdown-menu {
     display: block;
   }
+
 
   .main-section {
     text-align: center;
