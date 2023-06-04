@@ -107,11 +107,11 @@ header {
 }
 
 .dropdown-menu.open {
-  height: 240px;
+  height: 310px;
 }
 
 .dropdown-menu li {
-  padding: 0.7rem;
+  padding: 1.3rem;
   align-items: center;
   justify-content: right;
 }
@@ -128,8 +128,7 @@ header {
   display: contents;
 }
 .prett{
-  margin-left: 5px;
-  padding-left: 5px;
+  margin-left: 21px;
 }
 #menu ul,
 #menu li {
