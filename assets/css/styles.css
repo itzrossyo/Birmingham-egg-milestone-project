@@ -5,7 +5,7 @@
     --main-color: rgb(227, 117, 95);
     --Bg-color: rgb(229, 226, 226);
     --form-color: rgb(86, 164, 171);
-    --font-color: rgb(0, 0, 0);
+    --font-color: rgb(255, 255, 255);
 }
 
 body {
@@ -268,7 +268,11 @@ h1 {
     align-items: center;
     margin: 0 auto 20px 0;
 }
-
+.pie-pitch-img{
+    width: 50%;
+    height: 25%;
+    margin: 50px 30px 50px 50px;
+}
 .pitch-img {
     width: 50%;
     height: 25%;
