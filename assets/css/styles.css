@@ -740,15 +740,17 @@ p {
 /*-------------------------------------------------Responsive Menu for large phone -----*/
 @media only screen and (max-width: 380px) {
     .product-nav ul {
-        display: flex;
-        justify-content: center;
-        width: 100%;
         margin-left: -40px;
         line-height: 17px;
         margin-top: 11px;
         margin-bottom: 11px;
         margin-right: 3px;
-        gap: 5px
+        gap: 0px
+    }
+    .product-nav a {
+        width: 100%;
+
+        font-size: 9px;
     }
 }
 
