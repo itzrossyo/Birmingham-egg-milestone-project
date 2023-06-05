@@ -745,7 +745,7 @@ p {
         margin-top: 11px;
         margin-bottom: 11px;
         margin-right: 3px;
-        gap: 10px
+        gap: 8px;
     }
     .product-nav a {
         width: 100%;
