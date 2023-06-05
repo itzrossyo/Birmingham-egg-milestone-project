@@ -132,7 +132,7 @@ header {
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
-    z-index: 1;
+
 }
 
 #geotag {
@@ -141,15 +141,14 @@ header {
 
 .dropdown-menu.open {
     height: 250px;
-    z-index: 1;
 
+    z-index: 1;
 }
 
 .dropdown-menu li {
     padding: 0.7rem;
     align-items: center;
     justify-content: right;
-    z-index: 1;
 }
 
 .dropdown-menu .action_btn {
@@ -403,7 +402,7 @@ h1 {
     -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     position: relative;
-    z-index: -99;
+
 }
 
 @-webkit-keyframes focus-in-contract-bck {
@@ -634,7 +633,7 @@ p {
 
     .dropdown-menu {
         display: block;
-        z-index: 1;
+
     }
 
 
