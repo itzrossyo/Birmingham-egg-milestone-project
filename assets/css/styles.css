@@ -2,9 +2,10 @@
 /* CSS Variables */
 
 :root {
-  --main-color: rgb(239, 160, 40);
-  --Bg-color: rgb(157, 148, 148);
-  --form-color: rgb(243, 134, 28);
+  --main-color: rgb(9, 70, 76);
+  --Bg-color: rgb(181, 181, 181);
+  --form-color: rgb(86, 164, 171);
+  --font-color: rgb(215, 210, 210);
 }
 
 body {
@@ -21,7 +22,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: var(--font-color);
   font-size: 1rem;
 }
 
@@ -692,7 +693,7 @@ p {
   .product-nav a {
     width: 100%;
 
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
