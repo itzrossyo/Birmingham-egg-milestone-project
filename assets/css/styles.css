@@ -358,6 +358,8 @@ h1 {
 .chicken-images {
     width: 90%;
     margin: 0 auto;
+    border-radius: 10%;
+    box-shadow: 1px 3px #4c4c4c;
 }
 
 .staff {
