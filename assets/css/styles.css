@@ -128,8 +128,6 @@ header {
     right: 2rem;
     top: 60px;
     height: 0;
-    background: rgb(124, 115, 115);
-    backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
 
@@ -141,6 +139,7 @@ header {
 
 .dropdown-menu.open {
     height: 250px;
+    z-index: 2;
 
 }
 
