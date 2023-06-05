@@ -2,10 +2,10 @@
 /* CSS Variables */
 
 :root {
-  --main-color: rgb(9, 70, 76);
+  --main-color: rgb(91, 178, 185);
   --Bg-color: rgb(181, 181, 181);
   --form-color: rgb(86, 164, 171);
-  --font-color: rgb(215, 210, 210);
+  --font-color: rgb(0, 0, 0);
 }
 
 body {
@@ -328,7 +328,7 @@ h1 {
 }
 .staff{
   border-radius: 20px;
-  box-shadow:   3px #4c4c4c;
+  box-shadow: 1px   3px #4c4c4c;
 }
 .grid {
   margin-top: 5px;
@@ -533,7 +533,7 @@ p {
   }
 }
 
-/*-------------------------------------------------Responsive Menu for phone 600px-----*/
+/*-------------------------------------------------Responsive Menu for large phone -----*/
 @media only screen and (max-width: 600px) {
   .navbar .link,
   .navbar .action_btn {
@@ -682,12 +682,12 @@ p {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-left: -37px;
+    margin-left: -40px;
     line-height: 17px;
     margin-top: 11px;
     margin-bottom: 11px;
     margin-right: 3px;
-    gap:6px
+    gap:10px
   }
 
   .product-nav a {
@@ -697,4 +697,17 @@ p {
   }
 }
 
+/*-------------------------------------------------Responsive Menu for large phone -----*/
+
+.product-nav ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: -40px;
+  line-height: 17px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  margin-right: 3px;
+  gap:7px
+}
 /*-------------------------------------------------Responsive End-----*/
