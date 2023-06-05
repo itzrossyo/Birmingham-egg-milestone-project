@@ -125,9 +125,10 @@ header {
 .dropdown-menu {
     display: none;
     position: absolute;
-    right: 2rem;
-    top: 60px;
+    right: 0rem;
+    top: 135px;
     height: 0;
+    background: rgb(124, 115, 115);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
