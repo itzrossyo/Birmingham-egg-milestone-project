@@ -126,7 +126,7 @@ header {
     display: none;
     position: absolute;
     right: 0rem;
-    top: 135px;
+    top: 60px;
     height: 0;
     background: rgb(124, 115, 115);
     backdrop-filter: blur(15px);
@@ -155,6 +155,17 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.dropdown-menu.open {
+    animation: slide-left 0.5s cubic-bezier(0, 0, 0, 0) both;
+}
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
 }
 
 
@@ -400,41 +411,18 @@ h1 {
     position: relative;
 }
 .text-animation {
-    -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-
 }
 
-@-webkit-keyframes focus-in-contract-bck {
-    0% {
-        letter-spacing: 1em;
-        -webkit-transform: translateZ(300px);
-        transform: translateZ(300px);
-        -webkit-filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateZ(12px);
-        transform: translateZ(12px);
-        -webkit-filter: blur(0);
-        filter: blur(0);
-        opacity: 1;
-    }
-}
 @keyframes focus-in-contract-bck {
     0% {
         letter-spacing: 1em;
-        -webkit-transform: translateZ(300px);
         transform: translateZ(300px);
-        -webkit-filter: blur(12px);
         filter: blur(12px);
         opacity: 0;
     }
     100% {
-        -webkit-transform: translateZ(12px);
         transform: translateZ(12px);
-        -webkit-filter: blur(0);
         filter: blur(0);
         opacity: 1;
     }
