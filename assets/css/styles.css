@@ -738,17 +738,18 @@ p {
 }
 
 /*-------------------------------------------------Responsive Menu for large phone -----*/
-
-.product-nav ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-left: -40px;
-    line-height: 17px;
-    margin-top: 11px;
-    margin-bottom: 11px;
-    margin-right: 3px;
-    gap: 7px
+@media only screen and (max-width: 380px) {
+    .product-nav ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: -40px;
+        line-height: 17px;
+        margin-top: 11px;
+        margin-bottom: 11px;
+        margin-right: 3px;
+        gap: 5px
+    }
 }
 
 /*-------------------------------------------------Responsive End-----*/
