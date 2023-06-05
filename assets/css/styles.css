@@ -678,20 +678,21 @@ p {
   }
 
   .product-nav ul {
-    isplay: flex;
+    display: flex;
     justify-content: center;
     width: 100%;
-    margin-left: -41px;
+    margin-left: -37px;
     line-height: 17px;
     margin-top: 11px;
-    margin-bottom: 10px;
-    margin-right: 4px;
+    margin-bottom: 11px;
+    margin-right: 3px;
+    gap:6px
   }
 
   .product-nav a {
     width: 100%;
 
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
