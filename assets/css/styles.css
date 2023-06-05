@@ -107,11 +107,11 @@ header {
 }
 
 .dropdown-menu.open {
-  height: 310px;
+  height: 230px;
 }
 
 .dropdown-menu li {
-  padding: 1.3rem;
+  padding: 0.7rem;
   align-items: center;
   justify-content: right;
 }
@@ -120,50 +120,6 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-#menu {
-  background: rgb(124, 115, 115);
-  color: #ffffff;
-  display: contents;
-}
-.prett{
-  margin-left: 21px;
-}
-#menu ul,
-#menu li {
-  margin: 0 0;
-  padding: 0 0;
-  list-style: none
-}
-
-#menu a {
-  display: block;
-  line-height: 26px;
-  text-decoration: none;
-  color: #eee;
-
-}
-
-#menu li:hover > a,
-#menu li a:hover {
-  background: rgb(124, 115, 115);
-}
-
-#menu ul.menus {
-  height: auto;
-  width: 180px;
-  background: rgb(124, 115, 115);
-  position: absolute;
-  z-index: 99;
-  display: none;
-  border: 0;
-}
-
-
-#menu li:hover ul.menus {
-  display: block;
-  margin-left: 10px;
 }
 
 
@@ -722,15 +678,20 @@ p {
   }
 
   .product-nav ul {
+    isplay: flex;
+    justify-content: center;
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    margin-left: -41px;
+    line-height: 17px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    margin-right: 4px;
   }
 
   .product-nav a {
     width: 100%;
 
-    font-size: 8px;
+    font-size: 13px;
   }
 }
 
