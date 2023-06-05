@@ -132,7 +132,7 @@ header {
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
-
+    z-index: 1;
 }
 
 #geotag {
@@ -141,6 +141,7 @@ header {
 
 .dropdown-menu.open {
     height: 250px;
+    z-index: 1;
 
 }
 
@@ -148,7 +149,7 @@ header {
     padding: 0.7rem;
     align-items: center;
     justify-content: right;
-
+    z-index: 1;
 }
 
 .dropdown-menu .action_btn {
@@ -401,6 +402,7 @@ h1 {
 .text-animation {
     -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    z-index: -99;
 
 }
 
@@ -784,8 +786,9 @@ p {
         font-size: 11px;
     }
 }
+/*-------------------------------------------------End of Responsive Menu for large phone -----*/
 
-/*-------------------------------------------------Responsive Menu for large phone -----*/
+/*-------------------------------------------------Start for Responsive Menu for small phone -----*/
 @media only screen and (max-width: 376px) {
     .product-nav ul {
         margin-left: -40px;
