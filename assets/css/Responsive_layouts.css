@@ -14,6 +14,16 @@
   .map {
     width: 100%;
   }
+  .staff {
+    width: 80%;
+  }
+  .pie-pitch-img {
+    width: 50%;
+    margin: 0 32px 19px 12px;
+  }
+  .product-list-poltry {
+    margin-right: 45px;
+  }
 }
 
 /*-------------------------------------------------Responsive Menu for small laptop-----*/
@@ -35,6 +45,18 @@
 
   .img-rotate {
     height: 74%;
+  }
+  .staff {
+    width: 75%;
+  }
+  .product-list-poltry {
+    margin: 0 auto;
+  }
+
+  .pie-pitch-img {
+    width: 50%;
+    height: 25%;
+    margin: 50px 30px 50px 26px;
   }
 }
 
@@ -81,12 +103,21 @@
     justify-content: center;
     justify-items: center;
   }
-
+  .product-list-poltry {
+    margin-top: 45px;
+  }
   .pie-pitch {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     margin: 0 auto 20px 0;
+  }
+  .pie-pitch-img {
+    width: 70%;
+    margin: 20 auto 0 0;
+  }
+  .product-list-pie {
+    margin: 0px auto;
   }
 
   .img-rotate {
@@ -199,6 +230,9 @@
     width: 100%;
 
     font-size: 11px;
+  }
+  .staff {
+    width: 85%;
   }
 }
 /*-------------------------------------------------End of Responsive Menu for large phone -----*/

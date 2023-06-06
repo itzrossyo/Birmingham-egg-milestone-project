@@ -24,12 +24,6 @@
   text-align: center;
 }
 
-#specialize {
-  text-align: center;
-  width: 70%;
-  margin: 0 auto 50px auto;
-}
-
 .pitch {
   display: flex;
   align-items: center;
@@ -42,10 +36,16 @@
   align-items: center;
   margin: 0 auto 20px 0;
 }
+.product-list-poltry {
+  margin: 0 auto;
+}
+.product-list-pie {
+  margin: 0 auto;
+}
 .pie-pitch-img {
   width: 50%;
   height: 25%;
-  margin: 50px 30px 50px 50px;
+  margin: 50px 30px 50px 248px;
 }
 .pitch-img {
   width: 50%;
@@ -114,4 +114,5 @@
 #address {
   text-align: center;
 }
+
 /*-------------------------------------------------style text section end-----*/

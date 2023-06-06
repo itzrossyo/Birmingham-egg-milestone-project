@@ -1,75 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-        <script
-            src="https://kit.fontawesome.com/3ff087e965.js"
-            crossorigin="anonymous"></script>
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-            rel="stylesheet"
-            media="all" />
-        <link rel="stylesheet" href="./assets/css/styles.css" />
-        <title>Birmingham Egg</title>
-    </head>
 
-    <body>
-        <header>
-            <div class="navbar">
-                <div class="logo">Birmingham Egg<br />"Only here to help"</div>
-                <ul class="link">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="contact-us">Contact</a></li>
-                </ul>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <script src="https://kit.fontawesome.com/3ff087e965.js"
+        crossorigin="anonymous"></script>
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+        rel="stylesheet" media="all" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Birmingham Eg</title>
+</head>
 
-                <a href="tel:+01216223981" class="action_btn">0121-622-3981</a>
-                <div class="toggle_btn">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </div>
-            <div class="dropdown-menu">
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Birmingham Egg<br />"Only here to help"</div>
+            <ul class="link">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="about-us.html">About Us</a></li>
-                <li><a href="contact-us">Contact</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+
+            <a href="tel:+01216223981" class="action_btn">0121-622-3981</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
                 <li>
-                    <a
-                        href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt"
-                        target="_blank"
-                        >Where are we
-                    </a>
+                    <a href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt"
+                        target="_blank">Where are we </a>
                     <i class="fa-solid fa-location-dot" id="geotag"></i>
                 </li>
+            </ul>
+        </div>
+    </header>
+    <section class="welcome-to-birmingham">
+        <div>
+            <h3>Whoops!</h3>
+        </div>
+        <main>
+            <div class="whoarewe">
+                <p id="404__paragraph">
+                    Sadly you have ended up here please feel free to stay and
+                    look are these cute puppies
+                </p>
             </div>
-        </header>
-        <section class="main-section"></section>
-        <section class="welcome-to-birmingham">
-            <div>
-                <h3>Birmingham egg welcome's you</h3>
+        </main>
+    </section>
+    <h2 id="our-team">Our team</h2>
+    <p>Meet the face's behing Birmingham Egg</p>
+
+    <!-- The Team -->
+    <section class="the-team vh-height">
+        <div class="grid">
+            <div class="card">
+                <img class="chicken-images"
+                    src="assets/images/product-images/puppy.webp"
+                    alt="Chicken" />
+                <p>Les</p>
+            </div>
+            <div class="card">
+                <img class="chicken-images"
+                    src="assets/images/product-images/puppy-1.webp"
+                    alt="Chicken" />
+                <p>Guy</p>
+            </div>
+            <div class="card">
+                <img class="chicken-images"
+                    src="assets/images/product-images/puppy-2.webp"
+                    alt="Chicken" />
+                <p>Dean</p>
+            </div>
+            <div class="card">
+                <img class="chicken-images"
+                    src="assets/images/product-images/puppy-3.webp"
+                    alt="Chicken" />
+                <p>Dean</p>
             </div>
 
-            <p id="specialize"><em>But we have ran into a problem </em></p>
-        </section>
-        <div class="lostpage-image">
-            <img src="/assets/images/placeholder.webp
-" alt="ops" />
+            <!--End of  products grid -->
         </div>
-        <div id="page-container">
-            <div id="content-wrap">
-                <!-- all other page content -->
-            </div>
-            <footer id="footer">
-                <p>
-                    <i class="fa-regular fa-copyright"></i>2023 by Birmingham Egg
-                    Marketing.
-                </p>
-            </footer>
+    </section>
+
+    <div id="page-container">
+        <div id="content-wrap">
+            <!-- all other page content -->
         </div>
-        <script src="./assets/scripts/script.js"></script>
-    </body>
+        <footer id="footer">
+            <p><i class="fa-regular fa-copyright"></i>2023 by Birmingham Egg
+                Marketing.</p>
+        </footer>
+    </div>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
 </html>

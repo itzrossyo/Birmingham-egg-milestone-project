@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap");
-
 @import url("../css/navbar.css");
 @import url("../css/animations.css");
 @import url("../css/dropdown_menu.css");
@@ -10,6 +9,7 @@
 @import url("../css/form.css");
 @import url("../css/button.css");
 @import url("../css/Responsive_layouts.css");
+@import url("../css/404.css");
 :root {
   --main-color: rgb(227, 117, 95);
   --Bg-color: rgb(229, 226, 226);
