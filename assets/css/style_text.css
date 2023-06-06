@@ -46,9 +46,10 @@
 .pie-pitch-img {
   width: 50%;
   height: 25%;
-  margin: 50px 30px 50px 248px;
+
   box-shadow: -29px 32px 32px -18px rgba(153, 150, 153, 1);
   border-radius: 10%;
+  margin-right: 20px;
 }
 .pitch-img {
   width: 50%;
