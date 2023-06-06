@@ -1,0 +1,34 @@
+/*------------------------------------------------Dropdown Menu------------------------------------------------*/
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0rem;
+  top: 60px;
+  height: 0;
+  background: rgb(124, 115, 115);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#geotag {
+  margin-left: 10px;
+}
+
+.dropdown-menu.open {
+  height: 250px;
+  z-index: 2;
+}
+
+.dropdown-menu li {
+  padding: 0.7rem;
+  align-items: center;
+  justify-content: right;
+}
+
+.dropdown-menu .action_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/*--------------------------------------------End of Dropdown Menu------------------------------------------------*/

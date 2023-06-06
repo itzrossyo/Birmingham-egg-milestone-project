@@ -1,0 +1,117 @@
+/*-------------------------------------------------style text section Start-----*/
+
+.products-we-have {
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.products-we-have p {
+  text-align: center;
+}
+
+.product-list {
+  margin-top: 35px;
+  margin-right: 10px;
+}
+
+.items-we-have {
+  margin-top: 50px;
+}
+
+.items-we-have li {
+  text-align: center;
+}
+
+#specialize {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 50px auto;
+}
+
+.pitch {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 20px 0;
+}
+
+.pie-pitch {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 20px 0;
+}
+.pie-pitch-img {
+  width: 50%;
+  height: 25%;
+  margin: 50px 30px 50px 50px;
+}
+.pitch-img {
+  width: 50%;
+  height: 25%;
+  margin: 50px 30px 50px 50px;
+}
+
+.pitch p {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.pitch li {
+  text-align: left;
+  padding: 5px;
+}
+
+.pie-pitch h3 {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.pie-pitch p {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.pie-pitch li {
+  text-align: left;
+  padding: 5px;
+}
+
+.hvr-float {
+  display: block;
+  cursor: none;
+}
+
+.open-hours {
+  display: flex;
+  flex-direction: column;
+}
+
+.open_hrs {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.open_hrs li {
+  text-align: left;
+  padding-right: 30px;
+}
+
+.delivers h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.delivers p {
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+}
+
+#address {
+  text-align: center;
+}
+/*-------------------------------------------------style text section end-----*/

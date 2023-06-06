@@ -1,0 +1,75 @@
+/*-------------------------------------------------Start of hamburger animation-----*/
+.toggle_btn {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+/*--------------------------------------End of hamburger animation-------------------------------------*/
+
+/*----------------------------------------Dropdown Menu animation--------------------------------------*/
+
+.dropdown-menu.open {
+  animation: slide-left 0.5s cubic-bezier(0, 0, 0, 0) both;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+/*-------------------------------------End Dropdown Menu animation--------------------------------------*/
+
+/*-------------------------------------Start of Product Animation---------------------------------------*/
+.block-animation {
+  position: relative;
+  z-index: -99;
+}
+.text-animation {
+  animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  z-index: -99;
+}
+
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(300px);
+    filter: blur(12px);
+    opacity: 0;
+    z-index: -99;
+  }
+  100% {
+    transform: translateZ(12px);
+    filter: blur(0);
+    opacity: 1;
+    z-index: -99;
+  }
+}
+/*------------------------------------------End of product page-----------------------------------------*/

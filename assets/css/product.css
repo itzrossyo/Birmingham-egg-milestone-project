@@ -1,0 +1,67 @@
+/*------------------------------------------------start of product page---*/
+
+.product-nav {
+  margin-right: 30px;
+  display: flex;
+  background-color: var(--main-color);
+  width: 100%;
+  border: 1px solid white;
+}
+
+.product-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+
+.product-nav a {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  margin: 2px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.products-images {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.chicken-images {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10%;
+  box-shadow: 1px 3px #4c4c4c;
+}
+
+.staff {
+  border-radius: 20px;
+  box-shadow: 1px 3px #4c4c4c;
+}
+
+.grid {
+  margin-top: 5px;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-egg {
+  margin-top: 5px;
+  text-align: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-rotate-egg {
+  height: 90%;
+}
+
+.img-rotate {
+  height: 85%;
+}

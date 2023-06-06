@@ -1,0 +1,33 @@
+/*-------------------------------------------------Btn section Start-----*/
+.Contact-btn {
+  width: 10%;
+  margin: 20px auto;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0;
+  font-weight: 700;
+  box-shadow: 0 0 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #ff512f 0%, #f09819 51%, #ff512f 100%);
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.Contact-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.Contact-btn:active {
+  transform: scale(0.95);
+}
+
+/*-------------------------------------------------Btn section End-----*/
