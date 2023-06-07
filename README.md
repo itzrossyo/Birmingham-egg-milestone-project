@@ -1,6 +1,6 @@
 # Birmingham egg
 
-Birmingham egg is designed to be responsive website allowing visitors to view on a range of devices.
+Birmingham egg is a responsive website designed to provide information about Birmingham Egg, a local business specializing in high-quality eggs and polurty products. The website aims to showcase their range of products, provide details on how to visit their location, and offer convenient contact options for inquiries and deliveries.
 
 ![Birmingham egg shown on a range of devices](assets/images/birminghamegg.png)
 
@@ -60,6 +60,8 @@ Birmingham egg is designed to be responsive website allowing visitors to view on
 
 ## User Experience (UX)
 
+The website is optimized to be accessible on various devices, ensuring that users can easily explore Birmingham Egg's offerings regardless of whether they are using a desktop computer, tablet, or mobile phone.
+
 ### Initial Discussion
 
 Birmingham egg is a real life website for thats been re diseinged for modren internet showing all the information about the team members and products that thay have for sale.
@@ -70,31 +72,31 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 - contact information about delvirys.
 - what products they have for sale.
 
-### User Stories
-
 #### Client Goals
 
-- To be able to view the site on a range of device sizes.
-- To make it easy for potential members of the public to find out what products they have for sale.
-- how to find where they are bassed
-- To allow people to be able to contact Birmginham egg to ask further questions.
+- As a client, I want to be able to view the website on a range of device sizes to ensure accessibility for all users.
+
+- As a client, I want potential customers to easily find information about the products Birmingham Egg has for sale.
+
+- As a client, I want to provide contact information for deliveries and make it easy for users to reach out with further questions.
 
 #### First Time Visitor Goals
 
-- I want to find out what birmingham egg sale and how I can vist.
-- I want to be able to navigate the site easily to find information.
-- I want to be able to find their team members profile.
+- As a first-time visitor, I want to find out what products Birmingham Egg sells and how I can visit their location.
+
+- As a first-time visitor, I want to be able to navigate the website easily to find the information I need.
+
+- As a first-time visitor, I want to learn about the team members of Birmingham Egg and their profiles.
 
 #### Returning Visitor Goals
 
-- I want to find up to date information on what products i can buy .
-- I want to be able to easily contact birmingham egg with questions I might have.
+- As a returning visitor, I want to find up-to-date information on the products available for purchase.
+
+- As a returning visitor, I want to easily contact Birmingham Egg with any questions I might have.
 
 #### Frequent Visitor Goals
 
-- I want to be able to recommend brimingham egg.
-
----
+- As a frequent visitor, I want to be able to recommend Birmingham Egg to others based on my positive experiences.
 
 ## Design
 
@@ -221,8 +223,6 @@ To clone the Birmingham egg repository:
 
 - The following issues were raised during my mid project meeting with my mentor:
 
-- The Join Us section on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
-
 - There was an issue on the google pixel device where it was not responsive to font changes.
 
 - There is a problem on the iphone when the dropdown menu is clicked this as been made aware in - [Known Bugs](#Known-Bugs).
@@ -249,8 +249,13 @@ Dropdown menu overlaps the product item paragraph on iphone devices
 ### Testing User Stories
 
 - First Time Visitors
+  Test: Check if the homepage provides clear information about Birmingham Egg's main features.
 
-  - I want to find out what is Birmingham Egg and how to contact them.
+- Test: Verify if the navigation menu allows easy access to the products page, providing information about what Birmingham Egg sells and how to visit.
+
+- Test: Ensure that the website's navigation is intuitive and user-friendly.
+
+- Test: Locate the team members' profiles on the website.
 
 ### Lighthouse
 
@@ -277,9 +282,13 @@ Mobile:
 
 1.List items li are not contained within ul, ol or menu parent elements.
 
+---
+
 Pre final lighthouse testing:
 
-## <p>After sorting out some of the accessibility out i was able to improve my score</p>
+After sorting out some of the accessibility out i was able to improve my score.
+
+---
 
 <h3 align="center">Desktop</h3>
 
