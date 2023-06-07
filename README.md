@@ -2,8 +2,6 @@
 
 Birmingham egg is a responsive website designed to provide information about Birmingham Egg, a local business specializing in high-quality eggs and polurty products. The website aims to showcase their range of products, provide details on how to visit their location, and offer convenient contact options for inquiries and deliveries.
 
-![Birmingham egg shown on a range of devices](assets/images/birminghamegg.png)
-
 [View Birmingham Egg on Github Pages](https://itzrossyo.github.io/Birmingham-egg-milestone-project/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
@@ -98,13 +96,21 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a frequent visitor, I want to be able to recommend Birmingham Egg to others based on my positive experiences.
 
+---
+
 ## Design
 
 ### Colour Scheme
 
-![Birmingham Egg Website Colour Palette](./assets/readme-images/color-pallet.png)
+![Birmingham Egg Website Colour Palette](assets/readme-images/color-scheme.png)
 
 The website uses a palette of pastel colours that are often used in the Birmingham Eggs images. The colour palette was created using the [Coolors](https://coolors.co/) website.
+
+- The main color for the footer and nav bar through out the website. - #D57b65 ![#D57b65](https://placehold.co/15x15/D57b65/D57b65.png)
+
+- The main color that was used through out the website background. - #fdf2ee ![#fdf2ee](https://placehold.co/15x15/fdf2ee/fdf2ee.png)
+- For the contact form I went with the color. - #6aa2aa ![#6aa2aa](https://placehold.co/15x15/6aa2aa/6aa2aa.png)
+- To make the dropdown menu stand out wehn on mobile I went for something a little darker - #7a7373 ![#7a7373](https://placehold.co/15x15/7a7373/7a7373.png)
 
 ### Typography
 
@@ -126,6 +132,8 @@ Wireframes were created for mobile, tablet and desktop.
 
 [About Us Wireframe](./assets/readme-images/about-us-desktop.png)
 
+---
+
 ### Features
 
 The website is comprised of 9 pages, all are accessible from the navigation menu (home page, products page, about us page & contact us page). The 5 other page is a is shown once a user is on the product page and then they are able to select other products to filter out.
@@ -142,8 +150,9 @@ The website is comprised of 9 pages, all are accessible from the navigation menu
 
 - Contact Us Page.
 
-  - Form
-    The form contains fields for the users name, email address and checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
+  - Form.
+
+    - The form contains fields for the users name, email address and checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
 
 ### Accessibility
 
@@ -156,29 +165,35 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ---
 
-## Technologies Used
+## Technologies Used:
 
-### Languages Used
+### Languages Used:
 
-HTML and CSS and some javascript were used to create this website.
+- HTML and CSS and some a tiny javascript (for creating the btn) were used to create this website.
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used:
 
-Git - For version control.
+- Vscode - for more customization text editor.
 
-Github - To save and store the files for the website.
+- Webstorm - difrrent choice of IDE.
 
-Google Fonts - To import the fonts used on the website.
+- Figma - for ux desgin.
 
-Font Awesome - For the iconography on the website.
+- Git - For version control.
 
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+- Github - To save and store the files for the website.
 
-[Favicon.io](https://favicon.io/) To create favicon.
+- Google Fonts - To import the fonts used on the website.
 
-[Shields.io](https://shields.io/) To add badges to the README
+- Font Awesome - For the iconography on the website.
 
-[formspree.io](https://formspree.io) - for easy form submiting untill backend is done.
+- Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+- [Favicon.io](https://favicon.io/) To create favicon.
+
+- [Shields.io](https://shields.io/) To add badges to the README.
+
+- [formspree.io](https://formspree.io) - for easy form submiting untill backend is done.
 
 ---
 
@@ -232,11 +247,10 @@ To clone the Birmingham egg repository:
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
 - [Index Page HTML](assets/readme-images/index-validatior.png)
-- [About Us HTML]()
-- [Who are we HTML]()
-- [Contact Us Page HTML]()
-- [404 Page HTML]()
-- [style.css CSS](./Assets/readme-images/Css%20jigsaw.png)
+- [About Us HTML](assets/readme-images/about-us-validator.png)
+- [Contact Us Page HTML](assets/readme-images/contact-us-validator.png)
+- [404 Page HTML](assets/readme-images/404-validator.png)
+- [style.css CSS](assets/readme-images/css-jigsaw.png)
 
 ### Solved Bugs
 
@@ -300,7 +314,7 @@ After sorting out some of the accessibility out i was able to improve my score.
 
 ---
 
-Final lighthouse testing:
+Finally after many hours later the final lighthouse testing:
 
 <h3 align="center">Desktop</h3>
 
