@@ -217,13 +217,15 @@ To clone the Birmingham egg repository:
 
 ## Testing
 
-Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+- Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
-The following issues were raised during my mid project meeting with my mentor:
+- The following issues were raised during my mid project meeting with my mentor:
 
 - The Join Us section on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
-- There was an issue on smaller devices where the main images were not displaying properly. This issue is documented under issue 2 in solved bugs.
-- The introduction paragraph on the index was not aligned in style with the rest of the page. The text has now been centered.
+
+- There was an issue on the google pixel device where it was not responsive to font changes.
+
+- There is a problem on the iphone when the dropdown menu is clicked this as been made aware in - [Known Bugs](#Known-Bugs).
 
 ### W3C Validator
 
@@ -238,7 +240,11 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Solved Bugs
 
+As testing on many Mobile devices i had a bug where the google pixel phone. This was not responsing correclty to font size changes so i had to create a new media query just for the goolge pixel phone.
+
 ### Known Bugs
+
+Dropdown menu overlaps the product item paragraph on iphone devices
 
 ### Testing User Stories
 
@@ -254,6 +260,7 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 Initial lighthouse testing :
 ![Lighthouse Testing for Desktop Index Page - Test 1](assets/readme-images/lighthouse-score-desktop.png)
+
 ![Lighthouse Testing for Mobile Index Page - Test 1](assets/readme-images/lighthouse-mobile.png)
 
 Suggestions:
@@ -270,14 +277,16 @@ Mobile:
 
 1.List items li are not contained within ul, ol or menu parent elements.
 
-
-
 Pre final lighthouse testing:
-<p>After sorting out some of the accessibility out i was able to improve my score</p>
----
+
+## <p>After sorting out some of the accessibility out i was able to improve my score</p>
+
 <h3 align="center">Desktop</h3>
+
 ![Pre-Final Lighthouse Testing for Desktop  Page](assets/readme-images/lighthouse-desktop-precompleted.png)
+
 <h3 align="center">Mobile</h3>
+
 ![Pre-Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-mobile.png)
 
 ---
@@ -289,4 +298,5 @@ Final lighthouse testing:
 ![Final Lighthouse Testing for Desktop  Page](assets/readme-images/lighthouse-final-desktop.png)
 
 <h3 align="center">Mobile</h3>
+
 ![Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-final-mobile.png)
