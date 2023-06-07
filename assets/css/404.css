@@ -1,1 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:wght@400;500;600;700;800&display=swap");
+
+.whoarewe p {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 85px;
+}
+.welcome-to-birmingham h3 {
+  font-size: x-large;
+}

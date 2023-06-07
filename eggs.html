@@ -1,137 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
-  <script
-          crossorigin="anonymous"
-          src="https://kit.fontawesome.com/3ff087e965.js"
-  ></script>
-  <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-          media="all"
-          rel="stylesheet"
-  />
-  <link href="./assets/css/styles.css" rel="stylesheet" />
-  <title>Birmingham Egg</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/3ff087e965.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" media="all" rel="stylesheet" />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <title>Birmingham Egg</title>
+  </head>
 
-<body>
-<!-- main nav bar start -->
-<header>
-  <div class="navbar">
-    <div class="logo">Birmingham Egg<br />"Only here to help"</div>
-    <ul class="link">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="about-us.html">About Us</a></li>
-      <li><a href="contact-us.html">Contact</a></li>
-    </ul>
+  <body>
+    <!-- main nav bar start -->
+    <header>
+      <div class="navbar">
+        <div class="logo">Birmingham Egg<br />"Only here to help"</div>
+        <ul class="link">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+        </ul>
 
-    <a class="action_btn" href="tel:+01216223981">0121-622-3981</a>
-    <div class="toggle_btn">
-      <i class="fa-solid fa-bars"></i>
+        <a class="action_btn" href="tel:+01216223981">0121-622-3981</a>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="dropdown-menu">
+        <ul>
+          <li>
+            <a href="index.html"><i class="fa-solid fa-house" id="geotag"> </i> Home</a>
+          </li>
+          <li>
+            <a href="products.html"> <i class="fa-solid fa-cart-shopping" id="geotag"></i> Products</a>
+          </li>
+          <li>
+            <a href="about-us.html"> <i class="fa-solid fa-address-card" id="geotag"></i> About Us</a>
+          </li>
+          <li>
+            <a href="contact-us.html"><i class="fa-solid fa-address-book" id="geotag"></i> Contact</a>
+          </li>
+          <li>
+            <a href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt" target="_blank"
+              ><i class="fa-solid fa-location-dot" id="geotag"></i>
+              Where are we
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- main nav bar end-->
+
+    <div class="productimages">
+      <h1 class="text-animation">Eggs</h1>
     </div>
-  </div>
 
-  <div class="dropdown-menu">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="products.html">Products</a></li>
-      <li><a href="about-us.html">About Us</a></li>
-      <li><a href="contact-us.html">Contact</a></li>
-      <li>
-        <a
-                href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt"
-                target="_blank"
-        >Where are we
-          <i class="fa-solid fa-location-dot" id="geotag"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-</header>
-<!-- main nav bar end-->
+    <!-- product nav start -->
+    <hr id="bar" />
+    <div class="product-nav">
+      <ul class="product-links">
+        <li>
+          <a href="products.html">All Products</a>
+        </li>
+        <li><a href="chicken.html">Chicken</a></li>
+        <li><a href="beef.html">Beef</a></li>
+        <li><a href="pork.html">Pork</a></li>
+        <li><a href="lamb.html">Lamb</a></li>
+        <li><a href="turkey.html">Turkey</a></li>
+        <li><a href="pie-pitch.html">Pies & More</a></li>
+        <li><a class="current" href="eggs.html">Eggs</a></li>
+      </ul>
+    </div>
+    <hr />
+    <!-- product nav end -->
 
-<div class="productimages">
-  <h1 class="text-animation">Eggs</h1>
-</div>
+    <!-- products grid start -->
+    <section>
+      <div class="grid-egg">
+        <!-- product start for eggs -->
 
-<!-- product nav start -->
-<hr id="bar" />
-<div class="product-nav">
-  <ul class="product-links">
-    <li>
-      <a  href="products.html">All Products</a>
-    </li>
-    <li><a href="chicken.html">Chicken</a></li>
-    <li><a href="beef.html">Beef</a></li>
-    <li><a href="pork.html">Pork</a></li>
-    <li><a href="lamb.html">Lamb</a></li>
-    <li><a href="turkey.html">Turkey</a></li>
-    <li><a href="pie-pitch.html">Pies & More</a></li>
-    <li><a class="current" href="eggs.html">Eggs</a></li>
-  </ul>
-</div>
-<hr />
-<!-- product nav end -->
+        <div class="card">
+          <img alt="Sausage meat" class="chicken-images img-rotate" src="assets/images/product-images/350760909_274289995061699_3503565253601970001_n.webp" />
+          <p>Tray of large eggs</p>
+        </div>
 
-<!-- products grid start -->
-<section>
-<div class="grid-egg">
-  <!-- product start for eggs -->
-
-  <div class="card">
-    <img
-            alt="Sausage meat"
-            class="chicken-images img-rotate"
-            src="assets/images/product-images/350760909_274289995061699_3503565253601970001_n.webp"
-    />
-    <p>Tray of large eggs</p>
-  </div>
-
-  <div class="card">
-    <img
-            alt="Sausage meat"
-            class="chicken-images "
-            src="assets/images/product-images/349742841_6490345087662822_931411387894955242_n.webp"
-    />
-    <p>Duck eggs</p>
-  </div>
-  <div class="card">
-    <img
-            alt="Sausage meat"
-            class="chicken-images"
-            src="assets/images/product-images/350100719_942416623750749_1990870104753674143_n.webp"
-    />
-    <p>Box of eggs</p>
-  </div>
-  <div class="card">
-    <img
-            alt="Sausage meat"
-            class="chicken-images img-rotate-egg"
-            src="assets/images/product-images/350349569_211903488385504_5287405844397547213_n.webp"
-    />
-    <p>Pallet of eggs</p>
-  </div>
-  <!--End of  egg grid -->
-  <!--End of  products grid -->
-</div>
-</section>
-<!-- footer start -->
-<div id="page-container">
-  <div id="content-wrap">
-    <!-- all other page content -->
-  </div>
-  <footer id="footer">
-    <p>
-      <i class="fa-regular fa-copyright"></i>2023 by Birmingham Egg
-      Marketing.
-    </p>
-  </footer>
-</div>
-<script src="./assets/scripts/script.js"></script>
-</body>
+        <div class="card">
+          <img alt="Sausage meat" class="chicken-images" src="assets/images/product-images/349742841_6490345087662822_931411387894955242_n.webp" />
+          <p>Duck eggs</p>
+        </div>
+        <div class="card">
+          <img alt="Sausage meat" class="chicken-images" src="assets/images/product-images/350100719_942416623750749_1990870104753674143_n.webp" />
+          <p>Box of eggs</p>
+        </div>
+        <div class="card">
+          <img alt="Sausage meat" class="chicken-images img-rotate-egg" src="assets/images/product-images/350349569_211903488385504_5287405844397547213_n.webp" />
+          <p>Pallet of eggs</p>
+        </div>
+        <!--End of  egg grid -->
+        <!--End of  products grid -->
+      </div>
+    </section>
+    <!-- footer start -->
+    <div id="page-container">
+      <div id="content-wrap">
+        <!-- all other page content -->
+      </div>
+      <footer id="footer">
+        <p><i class="fa-regular fa-copyright"></i>2023 by Birmingham Egg Marketing.</p>
+      </footer>
+    </div>
+    <script src="./assets/scripts/script.js"></script>
+  </body>
 </html>
