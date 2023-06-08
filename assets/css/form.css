@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 0px;
 }
 
 .form-container h1 {
@@ -53,4 +54,9 @@
 .form-submit:hover {
   color: #0e0b3d;
   background-color: #f09819;
+}
+.contact-number {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
