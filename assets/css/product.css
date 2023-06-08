@@ -54,9 +54,12 @@
 }
 
 .img-rotate-egg {
-  height: 90%;
+  width: 70%;
 }
 
 .img-rotate {
   height: 85%;
+}
+.vh-height {
+  height: 100vh;
 }

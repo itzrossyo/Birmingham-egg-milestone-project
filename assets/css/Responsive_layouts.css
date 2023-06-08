@@ -237,6 +237,9 @@
   .egg-vh {
     height: 100vh;
   }
+  .img-rotate-egg {
+    width: 70%;
+  }
 }
 /*-------------------------------------------------End of Responsive Menu for large phone -----*/
 
