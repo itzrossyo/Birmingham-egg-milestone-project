@@ -154,7 +154,6 @@
     max-width: 400px;
     margin: 25px auto;
     text-align: center;
-    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -239,6 +238,9 @@
   }
   .img-rotate-egg {
     width: 70%;
+  }
+  .grid {
+    margin-bottom: 17vh;
   }
 }
 /*-------------------------------------------------End of Responsive Menu for large phone -----*/
