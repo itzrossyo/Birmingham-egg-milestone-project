@@ -51,9 +51,6 @@ Birmingham egg is a responsive website designed to provide information about Bir
 
   - [Full Testing](#Full-Testing)
 
-  - [Content](#Content)
-  - [Media](#Media)
-
 ---
 
 ## User Experience (UX)

@@ -234,6 +234,9 @@
   .staff {
     width: 85%;
   }
+  .egg-vh {
+    height: 100vh;
+  }
 }
 /*-------------------------------------------------End of Responsive Menu for large phone -----*/
 
