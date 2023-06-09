@@ -243,11 +243,11 @@ To clone the Birmingham egg repository:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-- [Index Page HTML](assets/readme-images/index-validatior.png)
-- [About Us HTML](assets/readme-images/about-us-validator.png)
-- [Contact Us Page HTML](assets/readme-images/contact-us-validator.png)
-- [404 Page HTML](assets/readme-images/404-validator.png)
-- [style.css CSS](assets/readme-images/css-jigsaw.png)
+- [Index Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fitzrossyo.github.io%2FBirmingham-egg-milestone-project%2Findex.html)
+- [About Us HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fitzrossyo.github.io%2FBirmingham-egg-milestone-project%2Fabout-us.html)
+- [Contact Us Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fitzrossyo.github.io%2FBirmingham-egg-milestone-project%2Fcontact-us.html)
+- [404 Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fitzrossyo.github.io%2FBirmingham-egg-milestone-project%2F404.html)
+- [style.css CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fitzrossyo.github.io%2FBirmingham-egg-milestone-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)
 
 ### Solved Bugs
 
