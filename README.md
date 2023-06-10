@@ -4,6 +4,8 @@ Birmingham egg is a responsive website designed to provide information about Bir
 
 [View Birmingham Egg on Github Pages](https://itzrossyo.github.io/Birmingham-egg-milestone-project/)
 
+![Am I responsive image](assets/readme-images/layout.png)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub contributors](https://img.shields.io/github/contributors/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
 ![GitHub language count](https://img.shields.io/github/languages/count/itzrossyo/Birmingham-egg-milestone-project?logo=github&style=flat-square)
@@ -38,7 +40,7 @@ Birmingham egg is a responsive website designed to provide information about Bir
     - [How to Fork](#How-to-Fork)
     - [How to Clone](#How-to-Clone)
 
-- [Testing](#Testing)
+- [Full Testing](#Full-Testing)
 
   - [W3C Validator](#W3C-Validator)
   - [Solved Bugs](#Solved-Bugs)
@@ -48,8 +50,6 @@ Birmingham egg is a responsive website designed to provide information about Bir
 
     - [Index Page](#Index-Page)
     - [Contact Us Page](#Contact-Us-Page)
-
-  - [Full Testing](#Full-Testing)
 
 ---
 
@@ -64,7 +64,7 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 #### Key information for the site
 
 - how to get there.
-- contact information about delvirys.
+- contact information about deliverys or for more information.
 - what products they have for sale.
 
 #### Client Goals
@@ -144,12 +144,18 @@ The website is comprised of 9 pages, all are accessible from the navigation menu
 - Home Page.
 
   - what are brimgingham egg main features .
+  - with a dropdown menu for accesing the map in mobile or at the botom of the screen. on desktop there is a map and conctat us
 
 - Contact Us Page.
 
   - Form.
 
-    - The form contains fields for the users name, email address and checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
+    - The form contains fields for the users name, email address and checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed. once this has been submited the form will be sent to the bussnes email
+
+- Products.
+  - a whole slection of produts that birmingham egg have for sale
+
+---
 
 ### Accessibility
 
@@ -229,7 +235,7 @@ To clone the Birmingham egg repository:
 
 ---
 
-## Testing
+#### Full Testing
 
 - Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
@@ -238,6 +244,55 @@ To clone the Birmingham egg repository:
 - There was an issue on the google pixel device where it was not responsive to font changes.
 
 - There is a problem on the iphone when the dropdown menu is clicked this as been made aware in - [Known Bugs](#Known-Bugs).
+
+Full testing was done on the following devices:
+
+- laptop
+  - macbook pro 13 2019
+  - Hp omen 15 inch
+  - dell xps
+- Mobile
+  - Oppo find x5 lite (6.42inch)
+    -samsung s22 ultra
+  - iPhone 13 pro max
+  - iphone 12 max
+  - iphone 12
+
+Full testing was done on the following browsers:
+
+- Google Chrome
+- Firefox
+- Opera
+- Safari
+
+| Feature                     | Expected Outcome                                                                                                                  | Testing preformed                                                                                                                      | Result                                                                         | Pass/Fail |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------- |
+| font-awesome icons          | icons will be used on the menu drop down to indicate what links do what more for friendly use case                                | to make sure the icons where showing up when the dropdown menu was called and the icons animated also                                  | this worked very well and showed up each time the hamburger button was clicked | Pass      |
+| 404 error page              | this should come up when the user page won't load or are side it down giving them a custom special message                        | testing this was making sure I created the 404 page to show up                                                                         | the 404 page showed up when changed to a html file not there                   | Pass      |
+| product page text animation | for letting the users know more about what page the are view instead of relaying on the tabs                                      | testing this was waiting for the pages to load and to see if the text animated into frame after each new product link was clicked      | this worked very well                                                          | Pass      |
+| Contact us by phone         | when click on mobile or any device this will automatically ask if you will like to call.                                          | The test was preformed by clicking the button on mobile and seeing if it will ask you to call also on Mac it would pop up asking also. | this worked as intended                                                        | Pass      |
+| Goole maps                  | when on mobile you can click the where are we and it should open straight into google map ready for you to get directions         | The test we performed by using the device and click the link and seeing if this did open google maps ready for you                     | this worked right away                                                         | Pass      |
+| hamburger Button/animation  | once the page has loaded and on mobile the hamburger will do an animation showing a wobble effect lifting people know to press it | This test was preformed by once the page has loaded and watching it to see if it acutely wobbled                                       | this worked right way                                                          | Pass      |
+| Dropdown menu               | once the hamburger button has been pressed on mobile a drop down menu will slide in from the left with a smooth animation         | this test was preformed by clicking on the hamburger menu to see if the dropdown menu will show up for the right smoothly              | this worked as intended                                                        | Pass      |
+
+---
+
+### Bugs
+
+#### Solved bugs
+
+| Num | Bug                                                                                                                                                                                                      | How I solved the bug                                                             |     |     |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --- | --- |
+| 1   | As testing on many Mobile devices i had a bug where the google pixel phone. This was not responsing correclty to font size changes so i had to create a new media query just for the goolge pixel phone. | I wokred around this and made a new media query just for the goolge pixel phone. |     |     |
+|     |                                                                                                                                                                                                          |                                                                                  |     |     |
+
+#### Known Bugs
+
+| known bugs | Bug issue                                                                                     | Plan to resolve                                |
+| ---------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| 1          | Dropdown menu overlaps the product item paragraph on iphone device but i ok on other devices. | I plane to carry on investing this for iphones |
+
+---
 
 ### W3C Validator
 
@@ -250,12 +305,6 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 - [style.css CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fitzrossyo.github.io%2FBirmingham-egg-milestone-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#warnings)
 
 ### Solved Bugs
-
-As testing on many Mobile devices i had a bug where the google pixel phone. This was not responsing correclty to font size changes so i had to create a new media query just for the goolge pixel phone.
-
-### Known Bugs
-
-Dropdown menu overlaps the product item paragraph on iphone devices
 
 ### Testing User Stories
 
