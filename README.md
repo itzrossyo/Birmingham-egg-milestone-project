@@ -253,10 +253,11 @@ Full testing was done on the following devices:
   - dell xps
 - Mobile
   - Oppo find x5 lite (6.42inch)
-    -samsung s22 ultra
+  - samsung s22 ultra
   - iPhone 13 pro max
   - iphone 12 max
   - iphone 12
+  - google pixel 6
 
 Full testing was done on the following browsers:
 
