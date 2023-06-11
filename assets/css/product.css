@@ -31,7 +31,7 @@
 }
 
 .chicken-images {
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
   border-radius: 10%;
   box-shadow: 1px 3px #4c4c4c;
@@ -57,8 +57,7 @@
 .img-rotate-egg {
   width: 70%;
 }
-
-.img-rotate {
+ß .img-rotate {
   height: 85%;
 }
 .vh-height {
