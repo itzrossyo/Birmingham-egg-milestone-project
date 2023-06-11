@@ -11,10 +11,10 @@
 @import url("../css/Responsive_layouts.css");
 @import url("../css/404.css");
 :root {
-  --main-color: rgb(227, 117, 95);
-  --Bg-color: rgb(229, 226, 226);
+  --main-color: #ff6b4d;
+  --Bg-color: #ffffff;
   --form-color: rgb(86, 164, 171);
-  --font-color: rgb(0, 0, 0);
+  --font-color: #0b0b00;
 }
 
 body {
@@ -32,11 +32,10 @@ li {
 a {
   text-decoration: none;
   color: var(--font-color);
-  font-size: 1rem;
 }
 
 a:hover {
-  color: rgb(110, 86, 15);
+  color: #fffff0;
 }
 
 .current:active {

@@ -26,7 +26,7 @@ header {
 }
 
 .navbar .toggle_btn {
-  color: white;
+  color: var(--font-color);
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
@@ -34,7 +34,7 @@ header {
 
 .action_btn {
   background-color: var(--main-color);
-  color: white;
+  color: (--font-color);
   padding: 0.5rem 1rem;
   border: none;
   outline: none;
