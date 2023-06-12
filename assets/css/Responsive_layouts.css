@@ -245,8 +245,8 @@
   }
 
   .image-size {
-    width: 90px;
-    height: 80px;
+    width: 100px;
+    height: 70px;
   }
 }
 /*-------------------------------------------------End of Responsive Menu for large phone -----*/
@@ -278,8 +278,11 @@
   }
   .product-nav a {
     width: 100%;
-
     font-size: 8px;
+  }
+  .image-size {
+    width: 85px;
+    height: 55px;
   }
 }
 
