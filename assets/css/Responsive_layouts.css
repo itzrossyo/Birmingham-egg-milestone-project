@@ -6,7 +6,6 @@
     font-size: 14px;
     padding-right: 30px;
   }
-
   .open_hrs h2 {
     font-size: 20px;
   }
@@ -14,15 +13,22 @@
   .map {
     width: 100%;
   }
-  .staff {
-    width: 80%;
-  }
+
   .pie-pitch-img {
     width: 50%;
     margin: 0 32px 19px 12px;
   }
   .product-list-poltry {
     margin-right: 45px;
+  }
+  .image-size {
+    width: 210px;
+    height: 129px;
+  }
+  .staff {
+    border-radius: 20px;
+    box-shadow: 1px 3px #4c4c4c;
+    width: 85%;
   }
 }
 
@@ -43,12 +49,8 @@
     width: 100%;
   }
 
-  .img-rotate {
-    height: 74%;
-  }
-  .staff {
-    width: 75%;
-  }
+
+
   .product-list-poltry {
     margin: 0 auto;
   }
@@ -58,7 +60,15 @@
     height: 25%;
     margin: 50px 30px 50px 26px;
   }
+
+  .image-size {
+    width: 210px;
+    height: 129px;
+  }
 }
+
+
+
 
 /*-------------------------------------------------Responsive Menu for large phone -----*/
 @media only screen and (max-width: 600px) {
@@ -120,10 +130,6 @@
     margin: 0px auto;
   }
 
-  .img-rotate {
-    height: 57%;
-  }
-
   .map {
     display: none;
   }
@@ -144,8 +150,6 @@
   #bar {
     display: none;
   }
-
-
 
   .form-container {
     max-width: 400px;
@@ -227,20 +231,22 @@
 
     font-size: 11px;
   }
-  .staff {
-    width: 85%;
-  }
   .egg-vh {
     height: 100vh;
   }
-  .img-rotate-egg {
-    width: 70%;
+  .image-size-pallet{
+    width: 129px;
+    height: 233px;
   }
-  .grid {
-    margin-bottom: 17vh;
-  }
-  .chicken-images {
+  .staff {
+    border-radius: 20px;
+    box-shadow: 1px 3px #4c4c4c;
     width: 90%;
+  }
+
+  .image-size {
+    width: 90px;
+    height: 80px;
   }
 }
 /*-------------------------------------------------End of Responsive Menu for large phone -----*/
