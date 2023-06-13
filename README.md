@@ -57,6 +57,8 @@ Birmingham egg is a responsive website designed to provide information about Bir
 
 The website is optimized to be accessible on various devices, ensuring that users can easily explore Birmingham Egg's offerings regardless of whether they are using a desktop computer, tablet, or mobile phone.
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](assets/readme-images/responsive.mov)
+
 ### Initial Discussion
 
 Birmingham egg is a real life website for thats been re diseinged for modren internet showing all the information about the team members and products that thay have for sale.
@@ -143,17 +145,21 @@ The website is comprised of 9 pages, all are accessible from the navigation menu
 
 - Home Page.
 
-  - what are brimgingham egg main features .
-  - with a dropdown menu for accesing the map in mobile or at the botom of the screen. on desktop there is a map and conctat us
+  - what are brimgingham egg main features and what they sale
+  - with a dropdown menu for accesing the map in mobile or at the botom of the screen. on desktop there is a map the map will open up google maps if the usser is on mobile.
 
 - Contact Us Page.
 
   - Form.
 
-    - The form contains fields for the users name, email address and checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed. once this has been submited the form will be sent to the bussnes email
+    - The form contains the users name, email address a text area for the user to add further information. The user submits the form using the submit button. what will opena new page open saying thank you Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed. once this has been submited the form will be sent to the bussnes email
 
 - Products.
+
   - a whole slection of produts that birmingham egg have for sale
+
+- ease of access the contact by phone button will open a pop up asking you if you would like to use facetime or any other type of call software you use on a laptop/pc.
+  If the user is on mobile then it will open automatically the call allowing you to right away call.
 
 ---
 

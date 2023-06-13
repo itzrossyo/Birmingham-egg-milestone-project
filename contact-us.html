@@ -1,85 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./assets/css/styles.css" />
-    <script src="https://kit.fontawesome.com/3ff087e965.js" crossorigin="anonymous"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="./assets/css/styles.css" rel="icon" type="image/x-icon" />
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/3ff087e965.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" media="all"
+        rel="stylesheet" />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
     <title>Birmingham Egg</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="navbar">
-        <div class="logo">Birmingham Egg<br />"Only here to help"</div>
-        <ul class="link">
-          <li><a href="index.html" aria-label="Go to home section">Home</a></li>
-          <li><a href="products.html" aria-label="Go to Product page">Products</a></li>
-          <li><a href="about-us.html" aria-label="Go to About us page">About Us</a></li>
-          <li><a href="contact-us.html" aria-label="Go to contact page">Contact</a></li>
-        </ul>
+        <div class="navbar">
+            <div class="logo">Birmingham Egg<br />"Only here to help"</div>
+            <ul class="link">
+                <li><a aria-label="Go to home section" href="index.html">Home</a></li>
+                <li><a aria-label="Go to Product page" href="products.html">Products</a></li>
+                <li><a aria-label="Go to About us page" href="about-us.html">About Us</a></li>
+                <li><a aria-label="Go to contact page" href="contact-us.html">Contact</a></li>
+            </ul>
 
-        <a href="tel:+01216223981" class="action_btn" aria-label="call us on mobile">0121-622-3981</a>
-        <div class="toggle_btn">
-          <i class="fa-solid fa-bars"></i>
+            <a aria-label="call us on mobile" class="action_btn" href="tel:+01216223981">0121-622-3981</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
-      </div>
-      <div class="dropdown-menu">
-        <ul>
-          <li>
-            <a href="index.html" aria-label="Go to home page"><i class="fa-solid fa-house geotag"> </i> Home</a>
-          </li>
-          <li>
-            <a href="products.html" aria-label="Go to Product page"> <i class="fa-solid fa-cart-shopping geotag"></i> Products</a>
-          </li>
-          <li>
-            <a href="about-us.html" aria-label="Go to About us page"> <i class="fa-solid fa-address-card geotag"></i> About Us</a>
-          </li>
-          <li>
-            <a href="contact-us.html" aria-label="Go to contact page"><i class="fa-solid fa-address-book geotag"></i> Contact</a>
-          </li>
-          <li>
-            <a href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt" aria-label="Open google maps to find us" target="_blank"
-              ><i class="fa-solid fa-location-dot geotag"></i>
-              Where are we
-            </a>
-          </li>
-        </ul>
-      </div>
+        <div class="dropdown-menu">
+            <ul>
+                <li>
+                    <a aria-label="Go to home page" href="index.html"><i class="fa-solid fa-house geotag"> </i> Home</a>
+                </li>
+                <li>
+                    <a aria-label="Go to Product page" href="products.html"> <i
+                            class="fa-solid fa-cart-shopping geotag"></i> Products</a>
+                </li>
+                <li>
+                    <a aria-label="Go to About us page" href="about-us.html"> <i
+                            class="fa-solid fa-address-card geotag"></i> About Us</a>
+                </li>
+                <li>
+                    <a aria-label="Go to contact page" href="contact-us.html"><i
+                            class="fa-solid fa-address-book geotag"></i> Contact</a>
+                </li>
+                <li>
+                    <a aria-label="Open google maps to find us"
+                        href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt" target="_blank"><i
+                            class="fa-solid fa-location-dot geotag"></i>
+                        Where are we
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header>
     <!-- main nav bar end-->
 
     <!-- Form Start-->
 
     <div class="form-container">
-      <h1 class="contact-us-h1">Feel free to ask about any qustions</h1>
-      <form class="contact-form" action="https://formspree.io/f/xnqyykdn" method="POST" target="_blank">
-        <label for="first-name" class="form-label">First Name</label>
-        <input type="text" name="Name" id="first-name" class="form-input" required autocomplete="name" />
+        <h1 class="contact-us-h1">Feel free to ask about any qustions</h1>
+        <form action="https://formspree.io/f/xnqyykdn" class="contact-form" method="POST" target="_blank">
+            <label class="form-label" for="first-name">First Name</label>
+            <input autocomplete="name" class="form-input" id="first-name" name="Name" required type="text" />
 
-        <label for="last-name" class="form-label">Last Name</label>
-        <input type="text" name="LastName" id="last-name" class="form-input" required />
+            <label class="form-label" for="last-name">Last Name</label>
+            <input class="form-input" id="last-name" name="LastName" required type="text" />
 
-        <label for="Email-address" class="form-label">Email address</label>
-        <input type="email" name="Email" id="Email-address" class="form-input" required autocomplete="email" />
+            <label class="form-label" for="Email-address">Email address</label>
+            <input autocomplete="email" class="form-input" id="Email-address" name="Email" required type="email" />
 
-        <label for="message" class="form-label">Message</label>
-        <textarea id="message" name="Message" class="form-input" required></textarea>
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-input" id="message" name="Message" required></textarea>
 
-        <button type="submit" class="form-submit hvr-float">Submit</button>
-      </form>
+            <button class="form-submit hvr-float" target=”_blank” type="submit">Submit</button>
+        </form>
     </div>
+    <P>contact us by email<br>Birminghamegg@gmail.co.uk</P>
+    <p>OR</p>
     <p>Contact us by phone</p>
     <div class="contact-number">
-      <a href="tel:+01216223981" class="action_btn">0121-622-3981</a>
+        <a class="action_btn" href="tel:+01216223981">0121-622-3981</a>
     </div>
+    <!-- End of Form -->
+
     <!-- footer start -->
-      <footer id="footer">
+    <footer id="footer">
         <p><i class="fa-regular fa-copyright"></i>2023 by Birmingham Egg Marketing.</p>
-      </footer>
+    </footer>
     <script src="./assets/scripts/script.js"></script>
-  </body>
+</body>
+
 </html>
