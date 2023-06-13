@@ -51,9 +51,9 @@ Birmingham egg is a responsive website designed to provide information about Bir
     - [Index Page](#Index-Page)
     - [Contact Us Page](#Contact-Us-Page)
 
-- [credits](#credits)
+- [Credits](#Credits)
 
-- [disclaimer](#disclaimer)
+- [Disclaimer](#Disclaimer)
 
 ---
 
@@ -77,21 +77,21 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a client, I want to be able to view the website on a range of device sizes to ensure accessibility for all users.
 
-  - [Somsung s20 ultra](assets/images/webiste-visitor-goals/samsung-galaxy-s20-ultra.webp)
+  - [Somsung s20 ultra](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/samsung-galaxy-s20-ultra.webp)
 
-  - [ipad](assets/images\webiste-visitor-goals\iPad.webp)
+  - [ipad](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/iPad.webp)
 
-  - [iphone ](assets/images/webiste-visitor-goals/iphone_6_7_8_plus.webp)
+  - [iphone ](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/iphone_6_7_8_plus.webp)
 
-  - [1080p laptop](assets/images/webiste-visitor-goals/laptop-1080p.webp)
+  - [1080p laptop](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/laptop-1080p.webp)
 
 - As a client, I want potential customers to easily find information about the products Birmingham Egg has for sale.
 
-  - [All Products](assets/images/webiste-visitor-goals/pixel.webp)
+  - [All Products](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/pixel.webp)
 
 - As a client, I want to provide contact information for deliveries and make it easy for users to reach out with further questions.
 
-  - [contact-us](assets/images/webiste-visitor-goals/contact-infomation.webpp)
+  - [contact-us](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/contact-infomation.webp)
 
 ---
 
@@ -99,7 +99,7 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a first-time visitor, I want to find out what products Birmingham Egg sells and how I can visit their location.
 
-  - [we are here](assets/images/webiste-visitor-goals/where-are-we.webp)
+  - [we are here](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/where-are-we.webp)
 
 - As a first-time visitor, I want to be able to navigate the website easily to find the information I need.
 
@@ -107,7 +107,7 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a first-time visitor, I want to learn about the team members of Birmingham Egg.
 
-  - [we are here](assets/images/webiste-visitor-goals/team-members.webp)
+  - [The team](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/team-members.webp)
 
 #### Returning Visitor Goals
 
@@ -119,7 +119,7 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a frequent visitor, I want to be able to recommend Birmingham Egg to others based on my positive experiences.
 
-  - [google reviews](assets/images/webiste-visitor-goals/positive-feedback.webp)
+  - [google reviews](https://raw.githubusercontent.com/itzrossyo/Birmingham-egg-milestone-project/main/assets/images/webiste-visitor-goals/positive-feedback.webp)
 
 ---
 
@@ -403,16 +403,18 @@ Finally after many hours later the final lighthouse testing:
 
 ![Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-final-mobile.png)
 
-#### disclaimer
+#### Disclaimer
 
-- As this was a real life project for an compnay and will be buidling off this with new features (a database for imte filters for exampl) thre is now no audio or video was plaaced ontop website or pages.
+- As this was a real life project for an compnay and will be buidling off this with new features (a database for item filters for example)
+
+- there is now no audio or video was plaaced ontop website or pages.
 
 - I am importing css into one css stylesheet.
 
 - the popup window will only show up if the user clicks onto the contact button for call us.
 
-### credits
+### Credits
 
-- now credits will be giving out to anyone that has to do with html and css this has been done is by myself Ross Espley but will say a huge help for good doucmentaion on [MDN](https://developer.mozilla.org/en-US/) and [Web3c](https://www.w3schools.com/)
+- no credits will be giving out to anyone that has to do with html and css and js button this has been done by myself Ross Espley but will say a huge help for good doucmentaion on [MDN](https://developer.mozilla.org/en-US/) and [Web3c](https://www.w3schools.com/)
 
-- credits for testing Craig, Gavin , kourty , amy , detti,joe and all of Birmingham Egg.
+- Credits for testing Craig, Gavin , kourty , amy , detti,joe and all of Birmingham Egg.

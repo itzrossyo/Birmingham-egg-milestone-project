@@ -19,7 +19,7 @@
 .dropdown-menu.open {
   height: 250px;
   z-index: 2;
-  border: 1px solid black ;
+  border: 1px solid black;
 }
 
 .dropdown-menu li {
