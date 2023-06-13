@@ -61,7 +61,7 @@ Birmingham egg is a responsive website designed to provide information about Bir
 
 The website is optimized to be accessible on various devices, ensuring that users can easily explore Birmingham Egg's offerings regardless of whether they are using a desktop computer, tablet, or mobile phone.
 
-[![Watch the video]](https://youtu.be/opVVGDQMYEU)
+[![Watch the video]](./assets/readme-images/layout-of-website.mp4)
 
 ### Initial Discussion
 
