@@ -77,21 +77,21 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a client, I want to be able to view the website on a range of device sizes to ensure accessibility for all users.
 
-  - [Somsung s20 ultra](assets\images\webiste-visitor-goals\samsung-galaxy-s20-ultra.webp)
+  - [Somsung s20 ultra](assets/images/webiste-visitor-goals/samsung-galaxy-s20-ultra.webp)
 
-  - [ipad](assets\images\webiste-visitor-goals\iPad.webp)
+  - [ipad](assets/images\webiste-visitor-goals\iPad.webp)
 
-  - [iphone ](assets\images\webiste-visitor-goals\iphone_6_7_8_plus.webp)
+  - [iphone ](assets/images/webiste-visitor-goals/iphone_6_7_8_plus.webp)
 
-  - [1080p laptop](assets\images\webiste-visitor-goals\laptop-1080p.webp)
+  - [1080p laptop](assets/images/webiste-visitor-goals/laptop-1080p.webp)
 
 - As a client, I want potential customers to easily find information about the products Birmingham Egg has for sale.
 
-  - [All Products](assets\images\webiste-visitor-goals\pixel.webp)
+  - [All Products](assets/images/webiste-visitor-goals/pixel.webp)
 
 - As a client, I want to provide contact information for deliveries and make it easy for users to reach out with further questions.
 
-  - [contact-us](assets\images\webiste-visitor-goals\contact-infomation.webpp)
+  - [contact-us](assets/images/webiste-visitor-goals/contact-infomation.webpp)
 
 ---
 
@@ -99,15 +99,15 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a first-time visitor, I want to find out what products Birmingham Egg sells and how I can visit their location.
 
-  - [we are here](assets\images\webiste-visitor-goals\where-are-we.webp)
+  - [we are here](assets/images/webiste-visitor-goals/where-are-we.webp)
 
 - As a first-time visitor, I want to be able to navigate the website easily to find the information I need.
 
-  - https://github.com/itzrossyo/Birmingham-egg-milestone-project/assets/81793480/7038ce35-0240-4bce-b6e0-9892c19e041d
+  https://github.com/itzrossyo/Birmingham-egg-milestone-project/assets/81793480/7038ce35-0240-4bce-b6e0-9892c19e041d
 
 - As a first-time visitor, I want to learn about the team members of Birmingham Egg.
 
-  - [we are here](assets\images\webiste-visitor-goals\team-members.webp)
+  - [we are here](assets/images/webiste-visitor-goals/team-members.webp)
 
 #### Returning Visitor Goals
 
@@ -119,7 +119,7 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a frequent visitor, I want to be able to recommend Birmingham Egg to others based on my positive experiences.
 
-  - [google reviews](assets\images\webiste-visitor-goals\positive-feedback.webp)
+  - [google reviews](assets/images/webiste-visitor-goals/positive-feedback.webp)
 
 ---
 
