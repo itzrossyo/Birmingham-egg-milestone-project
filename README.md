@@ -63,6 +63,8 @@ The website is optimized to be accessible on various devices, ensuring that user
 
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/opVVGDQMYEU)
 
+https://example.com/video.mp4
+
 ### Initial Discussion
 
 Birmingham egg is a real life website for thats been re diseinged for modren internet showing all the information about the team members and products that thay have for sale.
