@@ -34,7 +34,7 @@ header {
 
 .action_btn {
   background-color: var(--main-color);
-  color: (--font-color);
+  color: var(--font-color);
   padding: 0.5rem 1rem;
   border: none;
   outline: none;
