@@ -18,6 +18,7 @@ header {
 .navbar .logo a {
   font-size: 1.5rem;
   font-weight: bold;
+  font-family: "roboto" sans-serif;
 }
 
 .navbar .link {
@@ -30,18 +31,6 @@ header {
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
-}
-
-.action_btn {
-  background-color: var(--main-color);
-  color: var(--font-color);
-  padding: 0.5rem 1rem;
-  border: none;
-  outline: none;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 /*-------------------------------------------------End of navbar and header-----*/

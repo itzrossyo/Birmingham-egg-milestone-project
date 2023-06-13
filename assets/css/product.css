@@ -36,7 +36,7 @@
   text-align: center;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 .grid-egg {
   margin-top: 5px;
@@ -53,7 +53,7 @@
   box-shadow: 1px 3px #4c4c4c;
 }
 .image-size {
-  width: 348px;
+  width: 325px;
   height: 227px;
   margin: 0 auto;
   border-radius: 10%;

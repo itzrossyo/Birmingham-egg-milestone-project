@@ -111,14 +111,48 @@
 
 .delivers p {
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
-
+.email-address {
+  width: 17%;
+  margin: 19px auto auto;
+  /* margin: 0 auto; */
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  font-size: 1rem;
+}
+.action_btn {
+  color: var(--font-color);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+}
 .map {
   width: 100%;
 }
 
 #address {
   text-align: center;
+}
+.i-images {
+  margin-bottom: 15px;
+  margin-top: 55px;
+  text-align: center;
+  display: block;
+}
+#number {
+  margin-bottom: 30px;
 }
 
 /*-------------------------------------------------style text section end-----*/
