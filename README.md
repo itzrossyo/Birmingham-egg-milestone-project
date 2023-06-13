@@ -51,6 +51,10 @@ Birmingham egg is a responsive website designed to provide information about Bir
     - [Index Page](#Index-Page)
     - [Contact Us Page](#Contact-Us-Page)
 
+- [credits](#credits)
+
+- [disclaimer](#disclaimer)
+
 ---
 
 ## User Experience (UX)
@@ -376,3 +380,17 @@ Finally after many hours later the final lighthouse testing:
 <h3 align="center">Mobile</h3>
 
 ![Final Lighthouse Testing for Mobile  Page](assets/readme-images/lighthouse-final-mobile.png)
+
+#### disclaimer
+
+- As this was a real life project for an compnay and will be buidling off this with new features (a database for imte filters for exampl) thre is now no audio or video was plaaced ontop website or pages.
+
+- I am importing css into one css stylesheet.
+
+- the popup window will only show up if the user clicks onto the contact button for call us.
+
+### credits
+
+- now credits will be giving out to anyone that has to do with html and css this has been done is by myself Ross Espley but will say a huge help for good doucmentaion on [MDN](https://developer.mozilla.org/en-US/) and [Web3c](https://www.w3schools.com/)
+
+- credits for testing Craig, Gavin , kourty , amy , detti,joe and all of Birmingham Egg.
