@@ -103,7 +103,7 @@ Birmingham egg is a real life website for thats been re diseinged for modren int
 
 - As a first-time visitor, I want to be able to navigate the website easily to find the information I need.
 
-  - https://github.com/itzrossyo/Birmingham-egg-milestone-project/assets/81793480/7038ce35-0240-4bce-b6e0-9892c19e041d
+  https://github.com/itzrossyo/Birmingham-egg-milestone-project/assets/81793480/7038ce35-0240-4bce-b6e0-9892c19e041d
 
 - As a first-time visitor, I want to learn about the team members of Birmingham Egg.
 
