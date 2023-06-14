@@ -79,7 +79,9 @@
   .navbar .action_btn {
     display: none;
   }
-
+  #mobilehidden {
+    display: none;
+  }
   .navbar .toggle_btn {
     display: block;
   }
@@ -88,6 +90,20 @@
     display: block;
   }
 
+  #articleSearchInput {
+    display: none;
+  }
+  #SearchInput {
+    width: 68%;
+    margin-left: 2px;
+    background: var(--main-color);
+    color: black;
+    font-size: 16px;
+    border-color: none;
+  }
+  ::placeholder {
+    color: black;
+  }
   .main-section {
     text-align: center;
     text-transform: uppercase;

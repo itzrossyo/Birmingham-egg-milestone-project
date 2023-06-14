@@ -17,9 +17,10 @@
 }
 
 .dropdown-menu.open {
-  height: 250px;
+  height: 270px;
   z-index: 2;
   border: 1px solid black;
+  width: 40%;
 }
 
 .dropdown-menu li {
