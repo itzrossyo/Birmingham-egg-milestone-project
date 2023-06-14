@@ -269,6 +269,13 @@
   }
   .grid {
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
+  }
+  #number {
+    margin-bottom: 4rem;
+  }
+  .i-images {
+    margin-top: 30px;
   }
 }
 /*-------------------------------------------------End of Responsive Menu for large phone -----*/
