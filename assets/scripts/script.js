@@ -11,6 +11,8 @@ window.addEventListener('click', function(e) {
     dropDownMenu.classList.remove("open");
   }
 });
+
+
 //product navbar search menu
 var val = $.trim(this.value);
 if (val === "")
