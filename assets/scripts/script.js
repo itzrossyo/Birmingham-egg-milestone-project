@@ -6,6 +6,12 @@ toggleBtn.onclick = function () {
   dropDownMenu.classList.toggle("open");
 };
 
+window.addEventListener('click', function(e) {
+  if (!toggleBtn.contains(e.target) && !dropDownMenu.contains(e.target)) {
+    dropDownMenu.classList.remove("open");
+  }
+});
+//product navbar search menu
 var val = $.trim(this.value);
 if (val === "")
   $('img').show();
@@ -49,7 +55,9 @@ $(document).ready(function() {
   });
 });
 
+//end of poduct navbar search menu
 
+//drop menu search menu start 
 
 
 $(document).ready(function() {
