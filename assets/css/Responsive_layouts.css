@@ -100,6 +100,7 @@
     color: black;
     font-size: 16px;
   }
+
   ::placeholder {
     color: black;
   }
@@ -131,19 +132,23 @@
     justify-content: center;
     justify-items: center;
   }
+
   .product-list-poltry {
     margin-top: 45px;
   }
+
   .pie-pitch {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     margin: 0 auto 20px 0;
   }
+
   .pie-pitch-img {
     width: 70%;
     margin: 20px auto;
   }
+
   .product-list-pie {
     margin: 0px auto;
   }
@@ -249,13 +254,16 @@
 
     font-size: 11px;
   }
+
   .egg-vh {
     height: 100vh;
   }
+
   .image-size-pallet {
     width: 129px;
     height: 233px;
   }
+
   .staff {
     border-radius: 20px;
     box-shadow: 1px 3px #4c4c4c;
@@ -270,9 +278,11 @@
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 50px;
   }
+
   #number {
     margin-bottom: 4rem;
   }
+
   .i-images {
     margin-top: 30px;
   }
@@ -295,6 +305,7 @@
     font-size: 10px;
   }
 }
+
 @media only screen and (max-width: 320px) {
   .product-nav ul {
     margin-left: -40px;

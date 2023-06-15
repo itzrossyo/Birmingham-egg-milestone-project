@@ -37,6 +37,7 @@
 .dropdown-menu.open {
   animation: slide-left 0.5s cubic-bezier(0, 0, 0, 0) both;
 }
+
 @keyframes slide-left {
   0% {
     transform: translateX(0);
@@ -52,6 +53,7 @@
   position: relative;
   z-index: -99;
 }
+
 .text-animation {
   animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   z-index: -99;

@@ -8,12 +8,7 @@
   background: var(--main-color);
   backdrop-filter: blur(15px);
   border-radius: 10px;
-
   overflow: hidden;
-}
-
-.geotag {
-  margin-left: 10px;
 }
 
 .dropdown-menu.open {
@@ -28,6 +23,7 @@
   align-items: center;
   justify-content: right;
 }
+
 .dropdown-menu ul {
   margin-left: -35px;
 }
@@ -37,4 +33,9 @@
   display: flex;
   justify-content: center;
 }
+
+.geotag {
+  margin-left: 10px;
+}
+
 /*--------------------------------------------End of Dropdown Menu------------------------------------------------*/

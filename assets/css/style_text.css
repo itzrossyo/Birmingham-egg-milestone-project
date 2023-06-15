@@ -37,12 +37,15 @@
   align-items: center;
   margin: 0 auto 20px 0;
 }
+
 .product-list-poltry {
   margin: 0 auto;
 }
+
 .product-list-pie {
   margin: 0 auto;
 }
+
 .pie-pitch-img {
   width: 50%;
   height: 25%;
@@ -51,6 +54,7 @@
   border-radius: 10%;
   margin-right: 20px;
 }
+
 .pitch-img {
   width: 50%;
   height: 25%;
@@ -114,6 +118,7 @@
   width: 80%;
   margin: 0 auto;
 }
+
 .email-address {
   width: 17%;
   margin: 19px auto auto;
@@ -130,6 +135,7 @@
   touch-action: manipulation;
   font-size: 1rem;
 }
+
 .action_btn {
   color: var(--font-color);
   font-size: 1rem;
@@ -138,6 +144,7 @@
   transition: 0.5s;
   text-align: center;
 }
+
 .map {
   width: 100%;
 }
@@ -145,12 +152,14 @@
 #address {
   text-align: center;
 }
+
 .i-images {
   margin-bottom: 15px;
   margin-top: 55px;
   text-align: center;
   display: block;
 }
+
 #number {
   margin-bottom: 30px;
 }

@@ -59,9 +59,11 @@
   border-radius: 10%;
   box-shadow: 1px 3px #4c4c4c;
 }
+
 .vh-height {
   height: 100vh;
 }
+
 #articleSearchInput {
   width: 12%;
   margin-left: 2px;
@@ -71,6 +73,7 @@
   border-color: var(--main-color);
   border-radius: 10px;
 }
+
 ::placeholder {
   color: black;
 }
