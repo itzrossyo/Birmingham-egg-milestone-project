@@ -326,6 +326,8 @@
   .action_btn {
     width: 36%;
   }
+  .dropdown-menu.open {
+    width: 50%;
 }
 
 /*-------------------------------------------------Responsive End-----*/
