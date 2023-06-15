@@ -410,14 +410,17 @@ Finally after many hours later the final lighthouse testing:
 
 - As this was a real life project for an compnay and will be buidling off this with new features (a database for item filters for example)
 
-- there is now no audio or video was plaaced ontop website or pages.
+- There is now no audio or video was plaaced ontop website or pages.
 
 - I am importing css into one css stylesheet.
 
-- the popup window will only show up if the user clicks onto the contact button for call us.
+- The popup window will only show up if the user clicks onto the contact button for call us.
+
+- On the home page, there is no hamburger menu button due to the client wanting to make sure pepole know where to click for more information.
 
 ### Credits
 
-- no credits will be giving out to anyone that has to do with html and css and js button this has been done by myself Ross Espley but will say a huge help for good doucmentaion on [MDN](https://developer.mozilla.org/en-US/) and [Web3c](https://www.w3schools.com/)
+All code in the project was done by my sefl with only reading the documentation
+on [MDN](https://developer.mozilla.org/en-US/) and [Web3c](https://www.w3schools.com/)
 
 - Credits for testing Craig, Gavin , kourty , amy , detti,joe and all of Birmingham Egg.
