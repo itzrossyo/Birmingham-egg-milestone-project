@@ -9,7 +9,11 @@ $(document).ready(function () {
   });
 
   $(document).on("click", function (e) {
-    if (!toggleBtn.is(e.target) && !dropDownMenu.is(e.target) && dropDownMenu.has(e.target).length === 0) {
+    if (
+      !toggleBtn.is(e.target) &&
+      !dropDownMenu.is(e.target) &&
+      dropDownMenu.has(e.target).length === 0
+    ) {
       dropDownMenu.removeClass("open");
     }
   });
@@ -26,28 +30,10 @@ $(document).ready(function () {
   $("#articleSearchInput").on("keyup", function () {
     var value = $(this).val().toLowerCase();
     $("#card *").filter(function () {
-      if (value == "beef") {
+      if (value === "beef") {
         $("img").show();
       }
-      if (value == "chi" || "chick") {
-        $("img").show();
-      }
-      if (value == "por" || "pork ") {
-        $("img").show();
-      }
-      if (value == "lam" || "lamb") {
-        $("img").show();
-      }
-      if (value == "tur" || "turkey") {
-        $("img").show();
-      }
-      if (value == "che" || "cheese") {
-        $("img").show();
-      }
-      if (value == "bac" || "bacon") {
-        $("img").show();
-      }
-      if (value == "sau" || "sausage") {
+      if (value === "chi" || "chick") {
         $("img").show();
       }
 
@@ -56,7 +42,7 @@ $(document).ready(function () {
   });
 });
 
-//end of poduct navbar search menu
+//end of product navbar search menu
 
 //drop menu search menu start
 
@@ -64,28 +50,10 @@ $(document).ready(function () {
   $("#SearchInput").on("keyup", function () {
     var value = $(this).val().toLowerCase();
     $("#card *").filter(function () {
-      if (value == "beef") {
+      if (value === "beef") {
         $("img").show();
       }
-      if (value == "chi" || "chick") {
-        $("img").show();
-      }
-      if (value == "por" || "pork ") {
-        $("img").show();
-      }
-      if (value == "lam" || "lamb") {
-        $("img").show();
-      }
-      if (value == "tur" || "turkey") {
-        $("img").show();
-      }
-      if (value == "che" || "cheese") {
-        $("img").show();
-      }
-      if (value == "bac" || "bacon") {
-        $("img").show();
-      }
-      if (value == "sau" || "sausage") {
+      if (value === "chi" || "chick") {
         $("img").show();
       }
 
