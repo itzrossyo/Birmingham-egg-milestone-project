@@ -1,111 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/3ff087e965.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <title>Birmingham Egg</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
-  <script crossorigin="anonymous" src="https://kit.fontawesome.com/3ff087e965.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link href="./assets/css/styles.css" rel="stylesheet" />
-  <title>Birmingham Egg</title>
-</head>
+  <body>
+    <!-- main nav bar start -->
+    <header>
+      <div class="navbar">
+        <div class="logo">Birmingham Egg<br />"Only here to help"</div>
+        <ul class="link">
+          <li><a href="index.html" aria-label="Go to home section">Home</a></li>
+          <li><a href="products.html" aria-label="Go to Product page">Products</a></li>
+          <li><a href="about-us.html" aria-label="Go to About us page">About Us</a></li>
+          <li><a href="contact-us.html" aria-label="Go to contact page">Contact</a></li>
+        </ul>
 
-<body>
-  <!-- main nav bar start -->
-  <header>
-    <div class="navbar">
-      <div class="logo">Birmingham Egg<br />"Only here to help"</div>
-      <ul class="link">
-        <li><a href="index.html" aria-label="Go to home section">Home</a></li>
-        <li><a href="products.html" aria-label="Go to Product page">Products</a></li>
-        <li><a href="about-us.html" aria-label="Go to About us page">About Us</a></li>
-        <li><a href="contact-us.html" aria-label="Go to contact page">Contact</a></li>
-      </ul>
-
-      <a href="tel:+01216223981" class="action_btn" aria-label="call us on mobile">0121-622-3981</a>
-      <div class="toggle_btn">
-        <i class="fa-solid fa-bars"></i>
+        <a href="tel:+01216223981" class="action_btn" aria-label="call us on mobile">0121-622-3981</a>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
+      <div class="dropdown-menu">
+        <ul>
+          <li>
+            <a href="index.html" aria-label="Go to home page"><i class="fa-solid fa-house geotag"> </i> Home</a>
+          </li>
+          <li>
+            <a href="products.html" aria-label="Go to Product page"> <i class="fa-solid fa-cart-shopping geotag"></i> Products</a>
+          </li>
+          <li>
+            <a href="about-us.html" aria-label="Go to About us page"> <i class="fa-solid fa-address-card geotag"></i> About Us</a>
+          </li>
+          <li>
+            <a href="contact-us.html" aria-label="Go to contact page"><i class="fa-solid fa-address-book geotag"></i> Contact</a>
+          </li>
+          <li>
+            <a href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt" aria-label="Open google maps to find us" target="_blank"
+              ><i class="fa-solid fa-location-dot geotag"></i>
+              Where are we
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- main nav bar end-->
+
+    <div class="productimages">
+      <h1 class="text-animation">Turkey</h1>
     </div>
-    <div class="dropdown-menu">
-      <ul>
-        <li>
-          <a href="index.html" aria-label="Go to home page"><i class="fa-solid fa-house geotag"> </i> Home</a>
-        </li>
-        <li>
-          <a href="products.html" aria-label="Go to Product page"> <i class="fa-solid fa-cart-shopping geotag"></i>
-            Products</a>
-        </li>
-        <li>
-          <a href="about-us.html" aria-label="Go to About us page"> <i class="fa-solid fa-address-card geotag"></i>
-            About Us</a>
-        </li>
-        <li>
-          <a href="contact-us.html" aria-label="Go to contact page"><i class="fa-solid fa-address-book geotag"></i>
-            Contact</a>
-        </li>
-        <li>
-          <a href="https://goo.gl/maps/HLY7GX6342tCT8FL9?coh=178571&entry=tt" aria-label="Open google maps to find us"
-            target="_blank"><i class="fa-solid fa-location-dot geotag"></i>
-            Where are we
-          </a>
-        </li>
+
+    <!-- product nav start -->
+    <section class="product-nav">
+      <ul class="product-links">
+        <li><a href="products.html">All Products</a></li>
+        <li><a href="chicken.html">Chicken</a></li>
+        <li><a href="beef.html">Beef</a></li>
+        <li><a href="pork.html">Pork</a></li>
+        <li><a href="lamb.html">Lamb</a></li>
+        <li><a class="current" href="turkey.html">Turkey</a></li>
+        <li><a href="pie-pitch.html">Pies & More</a></li>
+        <li><a href="eggs.html">Eggs</a></li>
       </ul>
-    </div>
-  </header>
-  <!-- main nav bar end-->
-
-  <div class="productimages">
-    <h1 class="text-animation">Turkey</h1>
-  </div>
-
-  <!-- product nav start -->
-  <section class="product-nav">
-    <ul class="product-links">
-      <li><a href="products.html">All Products</a></li>
-      <li><a href="chicken.html">Chicken</a></li>
-      <li><a href="beef.html">Beef</a></li>
-      <li><a href="pork.html">Pork</a></li>
-      <li><a href="lamb.html">Lamb</a></li>
-      <li><a class="current" href="turkey.html">Turkey</a></li>
-      <li><a href="pie-pitch.html">Pies & More</a></li>
-      <li><a href="eggs.html">Eggs</a></li>
-    </ul>
-  </section>
-  <hr />
-  <!-- product nav end -->
-  <div>
-    <!-- products grid start -->
-    <div class="vh-height">
-      <div class="grid">
-        <div class="card">
-          <img alt="Turkey Drumsticks" class="image-size" src="assets/images/product-images/turkey-legs.webp" />
-          <p>Turkey drumsticks</p>
-        </div>
-        <div class="card">
-          <img alt="Turkey wings" class="image-size" src="assets/images/product-images/turkey-wings.webp" />
-          <p>Turkey wings</p>
-        </div>
-        <div class="card">
-          <img alt="Turkey butterfly" class="image-size" src="assets/images/product-images/turkey_butterfly.webp" />
-          <p>Turkey butterfly</p>
-        </div>
-        <div class="card">
-          <img alt="Turkey Neck" class="image-size" src="assets/images/product-images/turkey_neck.webp" />
-          <p>Turkey Neck</p>
+    </section>
+    <hr />
+    <!-- product nav end -->
+    <div>
+      <!-- products grid start -->
+      <div class="vh-height">
+        <div class="grid">
+          <div class="card">
+            <img alt="Turkey Drumsticks" class="image-size" src="assets/images/product-images/turkey-legs.webp" />
+            <p>Turkey drumsticks</p>
+          </div>
+          <div class="card">
+            <img alt="Turkey wings" class="image-size" src="assets/images/product-images/turkey-wings.webp" />
+            <p>Turkey wings</p>
+          </div>
+          <div class="card">
+            <img alt="Turkey butterfly" class="image-size" src="assets/images/product-images/turkey_butterfly.webp" />
+            <p>Turkey butterfly</p>
+          </div>
+          <div class="card">
+            <img alt="Turkey Neck" class="image-size" src="assets/images/product-images/turkey_neck.webp" />
+            <p>Turkey Neck</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- footer start -->
+    <!-- footer start -->
 
-  <footer id="footer">
-    <p><i class="fa-regular fa-copyright"></i>2023 by Birmingham Egg Marketing.</p>
-  </footer>
+    <footer id="footer">
+      <p><i class="fa-regular fa-copyright"></i>2023 by Birmingham Egg Marketing.</p>
+    </footer>
 
-  <script src="./assets/scripts/script.js"></script>
-</body>
-
+    <script src="./assets/scripts/script.js"></script>
+  </body>
 </html>
