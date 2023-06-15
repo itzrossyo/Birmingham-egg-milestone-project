@@ -1,167 +1,143 @@
 /*-------------------------------------------------style text section Start-----*/
 
 .products-we-have {
-  font-size: 0.9rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .products-we-have p {
-  text-align: center;
-}
-
-.product-list {
-  margin-top: 35px;
-  margin-right: 10px;
+    text-align: center;
 }
 
 .items-we-have {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .items-we-have li {
-  text-align: center;
+    text-align: center;
 }
 
 .pitch {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto 20px 0;
-  margin-top: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto 20px 0;
 }
 
 .pie-pitch {
-  display: flex;
-  align-items: center;
-  margin: 0 auto 20px 0;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 20px 0;
 }
 
-.product-list-poltry {
-  margin: 0 auto;
-}
 
-.product-list-pie {
-  margin: 0 auto;
+.product_pie_list, .product_poultry_list {
+    margin: 0 auto;
+    text-align: left;
 }
 
 .pie-pitch-img {
-  width: 50%;
-  height: 25%;
-
-  box-shadow: -29px 32px 32px -18px rgba(153, 150, 153, 1);
-  border-radius: 10%;
-  margin-right: 20px;
+    width: 50%;
+    height: 25%;
+    box-shadow: -29px 32px 32px -18px rgba(153, 150, 153, 1);
+    border-radius: 10%;
+    margin-right: 20px;
 }
 
 .pitch-img {
-  width: 50%;
-  height: 25%;
-  margin: 50px 30px 50px 50px;
-  box-shadow: -29px 32px 32px -18px rgba(153, 150, 153, 1);
-  border-radius: 10%;
+    width: 50%;
+    height: 25%;
+    margin: 50px 30px 50px 50px;
+    box-shadow: -29px 32px 32px -18px rgba(153, 150, 153, 1);
+    border-radius: 10%;
 }
 
 .pitch p {
-  text-align: center;
-  padding-right: 10px;
+    text-align: center;
+    padding-right: 10px;
 }
 
-.pitch li {
-  text-align: left;
-  padding: 5px;
+.pie-pitch p, h3 {
+    text-align: center;
+    padding-right: 10px;
 }
 
-.pie-pitch h3 {
-  text-align: center;
-  padding-right: 10px;
+.pie-pitch .pitch li {
+    text-align: left;
+    padding: 5px;
 }
 
-.pie-pitch p {
-  text-align: center;
-  padding-right: 10px;
-}
-
-.pie-pitch li {
-  text-align: left;
-  padding: 5px;
-}
-
-.hvr-float {
-  display: block;
-  cursor: none;
-}
 
 .open-hours {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .open_hrs {
-  text-align: center;
-  margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .open_hrs li {
-  text-align: left;
-  padding-right: 30px;
+    text-align: left;
+    padding-right: 30px;
 }
 
 .delivers h2 {
-  text-align: center;
-  margin-top: 50px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .delivers p {
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .email-address {
-  width: 17%;
-  margin: 19px auto auto;
-  /* margin: 0 auto; */
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  font-weight: bold;
-  cursor: pointer;
-  user-select: none;
-  touch-action: manipulation;
-  font-size: 1rem;
+    width: 17%;
+    margin: 19px auto auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
+    font-size: 1rem;
 }
 
 .action_btn {
-  color: var(--font-color);
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.5s;
-  text-align: center;
+    color: var(--font-color);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
 }
 
 .map {
-  width: 100%;
+    width: 100%;
 }
 
 #address {
-  text-align: center;
+    text-align: center;
 }
 
 .i-images {
-  margin-bottom: 15px;
-  margin-top: 55px;
-  text-align: center;
-  display: block;
+    margin-bottom: 15px;
+    margin-top: 55px;
+    text-align: center;
+    display: block;
 }
 
 #number {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 /*-------------------------------------------------style text section end-----*/

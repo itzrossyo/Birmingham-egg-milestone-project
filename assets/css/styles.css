@@ -8,43 +8,45 @@
 @import url("../css/about_us.css");
 @import url("../css/form.css");
 @import url("../css/button.css");
-@import url("../css/Responsive_layouts.css");
+@import url("responsive_layouts.css");
 @import url("../css/404.css");
+
 :root {
-  --main-color: #ff6b4d;
-  --Bg-color: #ffffff;
-  --form-color: rgb(86, 164, 171);
-  --font-color: #0b0b00;
+    --main-color: #ff6b4d;
+    --Bg-color: #ffffff;
+    --form-color: rgb(86, 164, 171);
+    --font-color: #0b0b00;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  background: linear-gradient(131deg, rgb(255 241 238) 22%, rgb(196 173 168) 95%);
-  min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(131deg, rgb(255 241 238) 22%, rgb(196 173 168) 95%);
+    min-height: 100vh;
 }
 
 /*-------------------------------------------------start of links for navbar-----*/
 li {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: var(--font-color);
+    text-decoration: none;
+    color: var(--font-color);
 }
 
 a:hover {
-  color: #fffff0;
+    color: #fffff0;
 }
 
 .current:active {
-  text-decoration: underline;
-  color: white;
+    text-decoration: underline;
+    color: white;
 }
 
 .current {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 /*-------------------------------------------------End of links for navbar-------------*/

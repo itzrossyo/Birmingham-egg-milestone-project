@@ -1,28 +1,27 @@
 /*-------------------------------------------------Btn section Start-----*/
-.Contact-btn {
-  margin: 0 auto;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  color: black;
-  border-radius: 10px;
-  display: block;
-  border: 0;
-  font-weight: 700;
-  cursor: pointer;
-  user-select: none;
-  touch-action: manipulation;
+.contact-btn {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
 }
 
-.Contact-btn:hover {
-  background-position: right center;
-  /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
+.contact-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }
 
-.Contact-btn:active {
-  transform: scale(0.95);
+.contact-btn:active {
+    transform: scale(0.95);
 }
 
 /*-------------------------------------------------Btn section End-----*/

@@ -1,49 +1,49 @@
 /*------------------------------------------------start of about us page---*/
-.whoarewe {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  letter-spacing: 1px;
-  text-align: center;
-  font-weight: 500;
+.div_who_are_ewe {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
 }
 
-.productimages {
-  display: flex;
-  justify-content: center;
+.product_images {
+    display: flex;
+    justify-content: center;
 }
 
 .products-images {
-  width: 60%;
+    width: 60%;
 }
 
 .div-for-who-are-we {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
-.teamphoto {
-  display: flex;
-  justify-content: center;
+.team_photos {
+    display: flex;
+    justify-content: center;
 }
 
-.teamphoto img {
-  width: 80%;
+.team_photos img {
+    width: 80%;
 }
 
 #our-team,
 h2,
 p {
-  text-align: center;
+    text-align: center;
 }
 
 .staff {
-  border-radius: 20px;
-  box-shadow: 1px 3px #4c4c4c;
-  width: 70%;
+    border-radius: 20px;
+    box-shadow: 1px 3px #4c4c4c;
+    width: 70%;
 }
 
 /*------------------------------------------------End of about us page---*/
