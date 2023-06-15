@@ -13,6 +13,19 @@
     margin: 20px;
 }
 
+#address__p {
+    margin-top: 50px
+}
+
+#strong__or_p {
+    margin-top: 10px;
+    margin-bottom: -28px;
+}
+
+#contact__us {
+    margin-top: 40px;
+}
+
 .contact-form {
     margin-top: 25px;
     background-color: var(--form-color);
@@ -62,6 +75,5 @@
 .contact-number {
     display: flex;
     justify-content: center;
-    margin-bottom: 32vh;
-    margin-top: 15px;
+    margin-top: 10px;
 }

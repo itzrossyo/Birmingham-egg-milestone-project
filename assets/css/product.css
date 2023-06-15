@@ -1,79 +1,81 @@
 /*------------------------------------------------start of product page---*/
 
 .product-nav {
-  margin-right: 30px;
-  display: flex;
-  background-color: var(--main-color);
-  width: 100%;
-  border: 1px solid white;
+    margin-right: 30px;
+    display: flex;
+    background-color: var(--main-color);
+    width: 100%;
+    border: 1px solid white;
 }
 
 .product-nav ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
 }
 
 .product-nav a {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 16px;
-  margin: 2px;
-  font-weight: bold;
-  font-style: italic;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    margin: 2px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .products-images {
-  margin: 0 auto;
-  width: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .grid {
-  margin-bottom: 50px;
-  margin-top: 5px;
-  text-align: center;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+    margin-top: 5px;
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
 }
+
 .grid-egg {
-  margin-top: 5px;
-  text-align: center;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
+    margin-top: 5px;
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .image-size-pallet {
-  width: 288px;
-  height: 445px;
-  border-radius: 10%;
-  box-shadow: 1px 3px #4c4c4c;
+    width: 288px;
+    height: 445px;
+    border-radius: 10%;
+    box-shadow: 1px 3px #4c4c4c;
 }
+
 .image-size {
-  width: 325px;
-  height: 227px;
-  margin: 0 auto;
-  border-radius: 10%;
-  box-shadow: 1px 3px #4c4c4c;
+    width: 325px;
+    height: 227px;
+    margin: 0 auto;
+    border-radius: 10%;
+    box-shadow: 1px 3px #4c4c4c;
 }
 
 .vh-height {
-  height: 100vh;
+    height: 100vh;
 }
 
 #articleSearchInput {
-  width: 12%;
-  margin-left: 2px;
-  color: black;
-  font-weight: 400;
-  font-size: 16px;
-  border-color: var(--main-color);
-  border-radius: 10px;
+    width: 12%;
+    margin-left: 2px;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    border-color: var(--main-color);
+    border-radius: 10px;
 }
 
 ::placeholder {
-  color: black;
+    color: black;
 }

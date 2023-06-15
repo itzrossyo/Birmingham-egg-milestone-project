@@ -1,41 +1,41 @@
 /*------------------------------------------------Dropdown Menu------------------------------------------------*/
 .dropdown-menu {
-  display: none;
-  position: absolute;
-  right: 0rem;
-  top: 60px;
-  height: 0;
-  background: var(--main-color);
-  backdrop-filter: blur(15px);
-  border-radius: 10px;
-  overflow: hidden;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    height: 0;
+    background: var(--main-color);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .dropdown-menu.open {
-  height: 270px;
-  z-index: 2;
-  border: 1px solid black;
-  width: 50%;
+    height: 270px;
+    z-index: 2;
+    border: 1px solid black;
+    width: 50%;
 }
 
 .dropdown-menu li {
-  padding: 0.7rem;
-  align-items: center;
-  justify-content: right;
+    padding: 0.7rem;
+    align-items: center;
+    justify-content: right;
 }
 
 .dropdown-menu ul {
-  margin-left: -35px;
+    margin-left: -35px;
 }
 
 .dropdown-menu .action_btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .geotag {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 /*--------------------------------------------End of Dropdown Menu------------------------------------------------*/

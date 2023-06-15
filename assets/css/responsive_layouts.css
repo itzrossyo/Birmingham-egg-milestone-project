@@ -89,6 +89,11 @@
         display: none;
     }
 
+    #specialize {
+        margin-top: 0;
+    }
+
+
     .navbar .toggle_btn {
         display: block;
     }
@@ -104,9 +109,10 @@
     #SearchInput {
         width: 68%;
         margin-left: 2px;
-        background: var(--main-color);
+        background: white;
         color: black;
         font-size: 16px;
+        border-radius: 15px;
     }
 
     ::placeholder {
@@ -145,6 +151,10 @@
         font-size: 1rem;
     }
 
+    .product__ul > li {
+        margin: 10px;
+    }
+
     .pie-pitch {
         display: flex;
         flex-direction: column-reverse;
@@ -158,7 +168,7 @@
     }
 
     .product_pie_list {
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
     .map {
@@ -261,6 +271,10 @@
 
     .egg-vh {
         height: 100vh;
+    }
+
+    .grid-egg {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .image-size-pallet {

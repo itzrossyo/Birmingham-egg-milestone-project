@@ -38,6 +38,14 @@
     text-align: left;
 }
 
+.product__ul > li {
+    margin: 20px;
+}
+
+#specialize {
+    margin-top: -70px;
+}
+
 .pie-pitch-img {
     width: 50%;
     height: 25%;
@@ -123,6 +131,7 @@
 
 .map {
     width: 100%;
+    margin-bottom: 40px;
 }
 
 #address {
