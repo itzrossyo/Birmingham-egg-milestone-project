@@ -1,32 +1,31 @@
-const toggleBtn = document.querySelector(".toggle_btn");
-const toggleBtnIcon = document.querySelector(".toggle_btn i");
-const dropDownMenu = document.querySelector(".dropdown-menu");
+//js for opening menu and clicking anywhere out of div
+$(document).ready(function () {
+  const toggleBtn = $(".toggle_btn");
+  const dropDownMenu = $(".dropdown-menu");
 
-toggleBtn.onclick = function () {
-  dropDownMenu.classList.toggle("open");
-};
+  toggleBtn.on("click", function (e) {
+    e.stopPropagation();
+    dropDownMenu.toggleClass("open");
+  });
 
-window.addEventListener('click', function(e) {
-  if (!toggleBtn.contains(e.target) && !dropDownMenu.contains(e.target)) {
-    dropDownMenu.classList.remove("open");
-  }
+  $(document).on("click", function (e) {
+    if (!toggleBtn.is(e.target) && !dropDownMenu.is(e.target) && dropDownMenu.has(e.target).length === 0) {
+      dropDownMenu.removeClass("open");
+    }
+  });
 });
 
-
 //product navbar search menu
-var val = $.trim(this.value);
-if (val === "")
-  $('img').show();
+var val = $.trim(this.val);
+if (val === "") $("img").show();
 else {
-  $('img').hide();
+  $("img").hide();
   $("img[alt*=" + val + "]").show();
 }
-
-$(document).ready(function() {
-  $("#articleSearchInput").on("keyup", function() {
+$(document).ready(function () {
+  $("#articleSearchInput").on("keyup", function () {
     var value = $(this).val().toLowerCase();
-    $("#card *").filter(function() {
-
+    $("#card *").filter(function () {
       if (value == "beef") {
         $("img").show();
       }
@@ -51,22 +50,20 @@ $(document).ready(function() {
       if (value == "sau" || "sausage") {
         $("img").show();
       }
-      
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
     });
   });
 });
 
 //end of poduct navbar search menu
 
-//drop menu search menu start 
+//drop menu search menu start
 
-
-$(document).ready(function() {
-  $("#SearchInput").on("keyup", function() {
+$(document).ready(function () {
+  $("#SearchInput").on("keyup", function () {
     var value = $(this).val().toLowerCase();
-    $("#card *").filter(function() {
-
+    $("#card *").filter(function () {
       if (value == "beef") {
         $("img").show();
       }
@@ -91,8 +88,8 @@ $(document).ready(function() {
       if (value == "sau" || "sausage") {
         $("img").show();
       }
-      
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
     });
   });
 });

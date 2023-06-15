@@ -204,7 +204,10 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ### Languages Used:
 
-- HTML and CSS and some a tiny javascript (for creating the btn) were used to create this website.
+- HTML
+- CSS
+- Javascript
+- jquery
 
 ### Frameworks, Libraries & Programs Used:
 
