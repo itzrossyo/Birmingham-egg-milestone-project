@@ -40,6 +40,10 @@ p {
     text-align: center;
 }
 
+#our-team_p {
+    margin-bottom: 60px;
+}
+
 .staff {
     border-radius: 20px;
     box-shadow: 1px 3px #4c4c4c;

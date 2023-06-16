@@ -343,17 +343,16 @@ To download the Birmingham Egg repository:
 
 #### Solved bugs
 
-| Num | Bug                                                                                                                                                                                                      | How I solved the bug                                                             |     |     |
-|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|-----|-----|
-| 1   | As testing on many Mobile devices i had a bug where the google pixel phone. This was not responding correctly to font size changes so i had to create a new media query just for the google pixel phone. | I worked around this and made a new media query just for the google pixel phone. |     |     |
-|     |                                                                                                                                                                                                          |                                                                                  |     |     |
+| Num | Bug                                                                                                                                                                                                      | How I solved the bug                                                             | 
+|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| 1   | As testing on many Mobile devices i had a bug where the google pixel phone. This was not responding correctly to font size changes so i had to create a new media query just for the google pixel phone. | I worked around this and made a new media query just for the google pixel phone. |
+| 2   | when testing the search bar would only filter and search for items on the all product page and not anywhere else.                                                                                        | This was fixed very easy by adding another id to the gird container.             |
 
 #### Known Bugs
 
-| known bugs | Bug issue                                                                                     | Plan to resolve                                                    |
-|------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| 1          | Dropdown menu overlaps the product item paragraph on iphone device but i ok on other devices. | I plane to carry on investing this for Iphone                      |
-| 2          | The search bar will only filter and search for items on the all product page                  | I plane to carry on and maybe adjust some JavaScript in later time |
+| known bugs | Bug issue                                                                                     | Plan to resolve                               |
+|------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------|
+| 1          | Dropdown menu overlaps the product item paragraph on iphone device but i ok on other devices. | I plane to carry on investing this for Iphone |
 
 ---
 
