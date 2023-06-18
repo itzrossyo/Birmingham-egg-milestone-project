@@ -74,6 +74,9 @@
     font-size: 16px;
     border-color: var(--main-color);
     border-radius: 10px;
+    position: sticky;
+    top: 209px;
+    right: 6px;
 }
 
 ::placeholder {

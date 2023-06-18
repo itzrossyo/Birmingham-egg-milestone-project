@@ -29,6 +29,18 @@
         height: 129px;
     }
 
+
+    element.style {
+    }
+
+    .pitch-img {
+        width: 50%;
+        height: 25%;
+        margin: 0px 30px 50px 50px;
+        box-shadow: -29px 32px 32px -18px rgba(153, 150, 153, 1);
+        border-radius: 10%;
+    }
+
     .staff {
         border-radius: 20px;
         box-shadow: 1px 3px #4c4c4c;
@@ -43,10 +55,16 @@
         gap: 1rem;
         grid-template-columns: repeat(3, 1fr);
     }
+
+    #articleSearchInput {
+        top: 143px;
+        right: 1px;
+        width: 16%;
+    }
 }
 
 /*-------------------------------------------------Responsive Menu for small laptop-----*/
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1024px) {
     .open_hrs li {
         text-align: left;
         margin: 0 auto;
@@ -76,6 +94,13 @@
         width: 210px;
         height: 129px;
     }
+
+    #articleSearchInput {
+        top: 168px;
+        right: 1px;
+        width: 15%;
+    }
+
 }
 
 /*-------------------------------------------------Responsive Menu for large phone -----*/
@@ -102,17 +127,29 @@
         display: block;
     }
 
+    #go_tag {
+        margin-bottom: -12px;
+    }
+
     #articleSearchInput {
         display: none;
     }
 
     #SearchInput {
         width: 68%;
-        margin-left: 2px;
+        margin-top: -10px;
         background: white;
         color: black;
         font-size: 16px;
         border-radius: 15px;
+    }
+
+    #search_align {
+        margin-top: 10px;
+    }
+
+    #search_align i {
+        margin-left: 26px;
     }
 
     ::placeholder {
@@ -305,7 +342,7 @@
     .i-images {
         margin-top: 30px;
     }
-    
+
 }
 
 /*-------------------------------------------------End of Responsive Menu for large phone -----*/
