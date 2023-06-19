@@ -67,17 +67,18 @@
 }
 
 #articleSearchInput {
-    width: 12%;
+    width: 15%;
     margin-left: 2px;
+    margin-top: 5px;
     color: black;
     font-weight: 400;
     font-size: 16px;
     border-color: var(--main-color);
     border-radius: 10px;
     position: sticky;
-    top: 209px;
-    right: 6px;
+
 }
+
 
 ::placeholder {
     color: black;
